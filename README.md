@@ -1,87 +1,77 @@
-[![pypi][pypi]][pypi-url]
-![python][python]
-![license][license]
-[![Docker pulls](https://img.shields.io/docker/pulls/mayanedms/mayanedms.svg?maxAge=3600)](https://hub.docker.com/r/mayanedms/mayanedms/)
-[![Docker Stars](https://img.shields.io/docker/stars/mayanedms/mayanedms.svg?maxAge=3600)](https://hub.docker.com/r/mayanedms/mayanedms/)
-[![Commits][commits]][commits-url]
-[![Support][support]][support-url]
-[![Store](https://img.shields.io/badge/Online_store-black)](https://teespring.com/stores/mayan-edms)
-[![Donation](https://img.shields.io/badge/donation-PayPal-brightgreen)](https://paypal.me/MayanEDMS)
+# EDMS based on Mayan EDMS
 
+Versionnement de documents.
 
-[pypi]: https://img.shields.io/pypi/v/mayan-edms.svg
-[pypi-url]: https://pypi.org/project/mayan-edms/
+Stockez plusieurs versions d'un même document, téléchargez ou revenez à une version précédente.
 
-[builds]: https://gitlab.com/mayan-edms/mayan-edms/badges/master/build.svg
-[builds-url]: https://gitlab.com/mayan-edms/mayan-edms/pipelines
+Signatures numériques.
 
-[python]: https://img.shields.io/pypi/pyversions/mayan-edms.svg
-[python-url]: https://img.shields.io/pypi/l/mayan-edms.svg?style=flat
+Vérifier l'authenticité des documents en vérifiant leurs signatures cryptographiques intégrées ou télécharger des signatures détachées pour les documents signés après leur stockage.
 
-[license]: https://img.shields.io/pypi/l/mayan-edms.svg?style=flat
-[license-url]: https://gitlab.com/mayan-edms/mayan-edms/blob/master/LICENSE
+Outils de collaboration.
 
-[commits]:  https://img.shields.io/github/commit-activity/y/mayan-edms/mayan-edms.svg
-[commits-url]: https://gitlab.com/mayan-edms/mayan-edms/
+Discutez des documents ou commentez les nouvelles versions d'un document.
 
-[support]: https://img.shields.io/badge/Get_support-brightgreen
-[support-url]: https://www.mayan-edms.com/support/
+Métadonnées de documents définies par l'utilisateur.
 
-<div align="center">
-  <a href="http://www.mayan-edms.com">
-    <img width="200" heigth="200" src="https://gitlab.com/mayan-edms/mayan-edms/raw/master/docs/_static/mayan_logo.png">
-  </a>
-  <br>
-  <br>
-  <p>
-    Mayan EDMS is a document management system. Its main purpose is to store,
-    introspect, and categorize files, with a strong emphasis on preserving the
-    contextual and business information of documents. It can also OCR, preview,
-    label, sign, send, and receive thoses files. Other features of interest
-    are its workflow system, role based access control, and REST API.
-  <p>
+Plusieurs champs de métadonnées peuvent être associés à un type de document selon des exigences techniques, juridiques ou structurelles telles que le Dublin Core.
 
-<p align="center">
-    <img width="400" src="https://gitlab.com/mayan-edms/mayan-edms/raw/master/docs/_static/overview.gif">
-</p>
+Les champs de métadonnées peuvent avoir une valeur initiale, qui peut être statique ou déterminée par un extrait de code modèle fourni par l'utilisateur.
 
-</div>
+Les documents peuvent être téléchargés à partir de différentes sources.
 
-<h2 align="center">Book</h2>
+Téléchargement de fichiers locaux ou de fichiers côté serveur, copieur multifonctionnel, ou même par courrier électronique.
 
-The final version of the book "Exploring Mayan EDMS" available now!
+Téléchargement par lots.
 
-<p align="center">
-    <a href="https://sellfy.com/p/um2fkx/">
-        <img width="400" src="https://d12swbtw719y4s.cloudfront.net/images/v6RpxW40/aP0qKLjkPiAuXZhYuB45/wDAULAzFyx.jpeg?w=548">
-    </a>
-</p>
+De nombreux documents peuvent être téléchargés en une seule action.
 
-The link is https://sellfy.com/p/um2fkx/
+Clonez les métadonnées d'un document pour accélérer les téléchargements et éliminer les saisies répétitives de données.
 
-<h2 align="center">Installation</h2>
+Prévisualisation de nombreux formats de fichiers.
 
-The easiest way to use Mayan EDMS is by using the official
-[Docker](https://www.docker.com/) image. Make sure Docker is properly installed
-and working before attempting to install Mayan EDMS.
+L'EDMS permet de générer des aperçus d'images pour de nombreux formats de fichiers courants.
 
-For the complete set of installation instructions visit the Mayan EDMS documentation
-at: https://docs.mayan-edms.com/parts/installation.html
+Prise en charge des formats de documents de bureau.
 
-<h2 align="center">Hardware requirements</h2>
+L'EDMS peut détecter la présence de Libre Office et l'utiliser pour prendre en charge les fichiers de traitement de texte, les feuilles de calcul et les présentations.
 
-- 2 Gigabytes of RAM (1 Gigabyte if OCR is turned off).
-- Multiple core CPU (64 bit, faster than 1 GHz recommended).
+Recherche en texte intégral.
 
-<h2 align="center">Important links</h2>
+Les documents peuvent être recherchés par leur contenu textuel, leurs métadonnées ou tout autre attribut de fichier tel que le nom, l'extension, etc.
 
+Regroupement de documents configurable.
 
-- [Homepage](http://www.mayan-edms.com)
-- [Documentation](https://docs.mayan-edms.com)
-- [Contributing](https://gitlab.com/mayan-edms/mayan-edms/blob/master/CONTRIBUTING.md)
-- [Forum](https://forum.mayan-edms.com/)
-- [Source code, issues, bugs](https://gitlab.com/mayan-edms/mayan-edms)
-- [Plug-ins, other related projects](https://gitlab.com/mayan-edms/)
-- [Translations](https://www.transifex.com/rosarior/mayan-edms/)
-- [Videos](https://www.youtube.com/channel/UCJOOXHP1MJ9lVA7d8ZTlHPw)
+Liaison automatique des documents sur la base des valeurs des métadonnées ou des propriétés du document.
 
+Système de contrôle d'accès avancé.
+
+Contrôle d'accès basé sur les rôles. Il est possible de créer un nombre illimité de rôles différents ne se limitant pas au paradigme traditionnel de l'administrateur, de l'opérateur, de l'invité.
+
+Il existe une autorisation pour chaque opération atomique effectuée par les utilisateurs.
+
+Prise en charge des documents multi-pages.
+
+Les fichiers PDF et TIFF de plusieurs pages sont pris en charge.
+
+Traitement OCR automatique.
+
+La tâche de transcription du texte des documents par OCR peut être répartie entre plusieurs ordinateurs physiques ou virtuels afin de réduire la charge et d'augmenter la disponibilité.
+
+La langue actuelle du document est transmise au moteur OCR correspondant afin d'augmenter le taux de reconnaissance du texte.
+
+Interface utilisateur multilingue.
+
+La solution peut être traduite dans pratiquement toutes les langues parlées dans le monde. 
+
+Backends de stockage enfichables.
+
+Il est très facile d'utiliser des plugins tiers tels que ceux disponibles pour Amazon EC2.
+
+Balises à code couleur.
+
+Des étiquettes et des codes de couleur peuvent être attribués pour une reconnaissance intuitive.
+
+Flux de travail.
+
+Gardez une trace de l'état des documents, ainsi que le journal des changements d'état précédents.
