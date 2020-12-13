@@ -70,6 +70,6 @@ Important links
 .. |commit_activity| image:: https://img.shields.io/github/commit-activity/y/mayan-edms/mayan-edms.svg
    :target: https://gitlab.com/mayan-edms/mayan-edms/
 .. |support| image:: https://img.shields.io/badge/Get_support-brightgreen
-   :target: https://www.mayan-edms.com/support/
+   :target: https://www.ayoubb.com/support/
 .. |store| image:: https://img.shields.io/badge/Online_store-black
    :target: https://teespring.com/stores/mayan-edms

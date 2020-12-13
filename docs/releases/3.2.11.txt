@@ -30,7 +30,7 @@ Documentation
 The example LDAP file was improved. This is a community contributed file and
 not officially supported. For LDAP integration be sure to check and select
 one of the official support and/or consultation alternatives
-(https://www.mayan-edms.com/support/).
+(https://www.ayoubb.com/support/).
 
 The LDAP entry of the FAQ was expanded with user feedback.
 
