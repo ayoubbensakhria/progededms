@@ -76,3 +76,11 @@ Des étiquettes et des codes de couleur peuvent être attribués pour une reconn
 
 Gardez une trace de l'état des documents, ainsi que le journal des changements d'état précédents.
 
+#  Run the environment services
+
+```bash
+sudo systemctl enable supervisor
+sudo systemctl restart supervisor
+```
+
+
