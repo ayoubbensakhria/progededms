@@ -161,7 +161,7 @@ items:
     - ReadWriteOnce
     resources:
       requests:
-        storage: 5Gi
+        storage: 100Mi
   status: {}
 - apiVersion: extensions/v1beta1
   kind: NetworkPolicy
@@ -208,11 +208,11 @@ items:
         - args:
           - redis-server
           - --appendonly
-          - no
+          - "no"
           - --databases
           - "2"
           - --maxmemory
-          - "5Gi"
+          - 5Gi
           - --maxclients
           - "500"
           - --maxmemory-policy
