@@ -60,7 +60,7 @@ services:
       - --databases
       - "2"
       - --maxmemory
-      - "100mb"
+      - "5Gi"
       - --maxclients
       - "500"
       - --maxmemory-policy

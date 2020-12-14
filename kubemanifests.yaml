@@ -161,7 +161,7 @@ items:
     - ReadWriteOnce
     resources:
       requests:
-        storage: 100Mi
+        storage: 5Gi
   status: {}
 - apiVersion: extensions/v1beta1
   kind: NetworkPolicy
