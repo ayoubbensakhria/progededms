@@ -85,6 +85,11 @@ WORKDIR /src
 # Copy the source files needed to build the Python package
 COPY --chown=mayan:mayan requirements /src/requirements
 COPY --chown=mayan:mayan \
+    HISTORY.rst \
+    LICENSE \
+    MANIFEST.in \
+    README.md \
+    README.rst \
     setup.py \
     /src/
 

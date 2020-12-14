@@ -83,4 +83,10 @@ sudo systemctl enable supervisor
 sudo systemctl restart supervisor
 ```
 
+## Or Run through virtual env
+source /opt/mayan-edms/bin/activate
+
+In this case, you'll need to create the initial database which in development defaults to an SQLite database. SQLite is a single file database system. Execute:
+
+./manage.py initialsetup
 
