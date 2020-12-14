@@ -1,8 +1,8 @@
 ==================================================
-Mayan EDMS Entity Contributor Assignment Agreement
+PROGED EDMS Entity Contributor Assignment Agreement
 ==================================================
 
-Thank you for your interest in contributing to Mayan EDMS ("We" or "Us").
+Thank you for your interest in contributing to PROGED EDMS ("We" or "Us").
 
 This contributor agreement ("Agreement") documents the rights granted by
 contributors to Us. To make this document effective, please print it, sign it
@@ -244,4 +244,4 @@ limited remedy to the maximum extent possible under law.
 
 
 
-Mayan EDMS Entity CAA Version 1.0 April 8, 2018
+PROGED EDMS Entity CAA Version 1.0 April 8, 2018

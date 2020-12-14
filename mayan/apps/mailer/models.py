@@ -206,7 +206,7 @@ class UserMailer(models.Model):
         correct.
         """
         try:
-            self.send(subject=_('Test email from Mayan EDMS'), to=to)
+            self.send(subject=_('Test email from PROGED EDMS'), to=to)
         except Exception as exception:
             self.error_log.create(
                 text='{}; {}'.format(

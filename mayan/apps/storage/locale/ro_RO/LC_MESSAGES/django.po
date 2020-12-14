@@ -8,7 +8,7 @@
 # Stefaniu Criste <gupi@hangar.ro>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-09-29 12:57+0000\n"

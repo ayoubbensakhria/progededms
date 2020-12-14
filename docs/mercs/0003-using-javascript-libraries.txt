@@ -22,7 +22,7 @@ This MERC proposes a standard way to use JavaScript libraries.
 Rationale
 =========
 
-Mayan EDMS uses several JavaScript libraries for user interface features.
+PROGED EDMS uses several JavaScript libraries for user interface features.
 Currently, the libraries are not installed using any JavaScript package
 manager but copied uncompressed. Installing the libraries in this manner
 carries some disadvantages.
@@ -35,7 +35,7 @@ if the library is not installed by a package manager in distributable form.
 There are several disadvantages with the current approach:
 
 1. Having the library in source form means that the entire weight of the
-   library's size carries over the overall size of the Mayan EDMS distribution files.
+   library's size carries over the overall size of the PROGED EDMS distribution files.
    The justification for not doing this is the same as with the Python libraries
    which are not copied with the code but downloaded upon installation.
 2. Upgrading the libraries means manually examining the version of the

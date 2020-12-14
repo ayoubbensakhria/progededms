@@ -92,7 +92,7 @@ if [ -z `which docker`  ]; then
     exit 1
 fi
 
-echo -n "* Removing existing Mayan EDMS and PostgreSQL containers (no data will be lost)..."
+echo -n "* Removing existing PROGED EDMS and PostgreSQL containers (no data will be lost)..."
 docker rm -f $DOCKER_REDIS_CONTAINER >/dev/null 2>&1  || true
 docker rm -f $DOCKER_POSTGRES_CONTAINER >/dev/null 2>&1  || true
 docker rm -f $DOCKER_MAYAN_CONTAINER >/dev/null 2>&1  || true
@@ -114,7 +114,7 @@ echo -n "* Pulling (downloading) the PostgreSQL Docker image..."
 docker pull $DOCKER_POSTGRES_IMAGE > /dev/null
 echo "Done"
 
-echo -n "* Pulling (downloading) the Mayan EDMS Docker image..."
+echo -n "* Pulling (downloading) the PROGED EDMS Docker image..."
 docker pull $DOCKER_MAYAN_IMAGE >/dev/null
 echo "Done"
 
@@ -180,7 +180,7 @@ echo -n "* Waiting for the PostgreSQL container to be ready (${DOCKER_POSTGRES_D
 sleep $DOCKER_POSTGRES_DELAY
 echo "Done"
 
-echo -n "* Deploying Mayan EDMS container..."
+echo -n "* Deploying PROGED EDMS container..."
 docker run -d \
 --name $DOCKER_MAYAN_CONTAINER \
 $NETWORK_ARGUMENT \
@@ -199,6 +199,6 @@ $MAYAN_CELERY_RESULT_BACKEND_ARGUMENT \
 $DOCKER_MAYAN_IMAGE >/dev/null
 echo "Done"
 
-echo -n "* Waiting for the Mayan EDMS container to be ready (might take a few minutes)..."
+echo -n "* Waiting for the PROGED EDMS container to be ready (might take a few minutes)..."
 while ! curl --output /dev/null --silent --head --fail http://localhost:$DOCKER_MAYAN_PORT; do sleep 1 && echo -n .; done;
 echo "Done"

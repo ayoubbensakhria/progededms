@@ -35,10 +35,10 @@ Version 0.9
 * Used new multi parameter passing method to improve the usability of 
   the grant/revoke permission view, thanks to Cezar Jenkins
   (https://twitter.com/#!/emperorcezar) for the suggestion
-* Added step to the documentation explaining how to install Mayan EDMS 
+* Added step to the documentation explaining how to install PROGED EDMS 
   on Webfaction
 * Added an entry in the documentation to the screencast explaining how 
-  to install Mayan EDMS on DjangoZoom
-* Added required changes to add Mayan EDMS to Transifex.com
+  to install PROGED EDMS on DjangoZoom
+* Added required changes to add PROGED EDMS to Transifex.com
 * Fixed the apache contrib file static file directory name
 * Added improved documentation

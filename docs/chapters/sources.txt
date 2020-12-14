@@ -35,7 +35,7 @@ The current document sources supported are:
 .. blockdiag::
 
     blockdiag {
-        mayan [shape = "roundedbox", label = "Mayan EDMS" ];
+        mayan [shape = "roundedbox", label = "PROGED EDMS" ];
         email_pop3 [shape = "mail", label = "e-mail (POP3)"];
         email_imap [shape = "mail", label = "e-mail (IMAP)"];
         staging [shape = "flowchart.database", label = "Staging folder" ];
@@ -61,5 +61,5 @@ manager system.
 
 .. note::
 
-    If you deployed a Mayan EDMS Docker container and want to use watched folders
+    If you deployed a PROGED EDMS Docker container and want to use watched folders
     or staging folder, refer to the Docker chapter :ref:`docker-accessing-outside-data`.

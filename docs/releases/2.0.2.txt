@@ -25,7 +25,7 @@ fields that had a value lookup list.
 Remove Docker files
 ^^^^^^^^^^^^^^^^^^^
 
-Included Docker and Docker Compose files were removed since the Mayan EDMS Docker
+Included Docker and Docker Compose files were removed since the PROGED EDMS Docker
 (https://gitlab.com/mayan-edms/mayan-edms-docker) repository is stable.
 
 
@@ -64,7 +64,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

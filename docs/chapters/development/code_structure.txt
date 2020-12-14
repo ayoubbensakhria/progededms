@@ -28,7 +28,7 @@ Import order should be:
 - Installed Python modules
 - Core Django modules
 - Installed Django modules
-- Mayan EDMS modules
+- PROGED EDMS modules
 - Local imports
 
 Example:
@@ -89,7 +89,7 @@ Correct:
 Dependencies
 ------------
 
-Mayan EDMS apps follow a hierarchical model of dependency. Apps import from
+PROGED EDMS apps follow a hierarchical model of dependency. Apps import from
 their parents or siblings, never from their children. Think plugins. A parent
 app must never assume anything about a possible existing child app. The
 documents app and the Document model are the basic entities; they must never
@@ -101,7 +101,7 @@ Variables
 
 Naming of variables should follow a Major to Minor convention, usually
 including the purpose of the variable as the first piece of the name, using
-underscores as spaces. camelCase is not used in Mayan EDMS.
+underscores as spaces. camelCase is not used in PROGED EDMS.
 
 Examples:
 
@@ -137,7 +137,7 @@ Classes:
 Strings
 -------
 
-Quotation character used in Mayan EDMS for strings is the single quote.
+Quotation character used in PROGED EDMS for strings is the single quote.
 Double quote is used for multiple line comments or HTML markup.
 
 
@@ -170,7 +170,7 @@ as passed directly from the exception object.
 Debugging
 =========
 
-Mayan EDMS makes extensive use of Django's new
+PROGED EDMS makes extensive use of Django's new
 :django-docs:`logging capabilities <topics/logging>`.
 
 By default debug logging for all apps is turned on. If you wish to customize

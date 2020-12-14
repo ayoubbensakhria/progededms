@@ -7,7 +7,7 @@
 # yulin Gong <540538248@qq.com>, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -36,8 +36,8 @@ msgstr "创建文档类型"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way Mayan EDMS categorizes documents."
-msgstr "必须为每个上传的文档分配文档类型，这是Mayan EDMS对文档进行分类的基本方式。"
+"way PROGED EDMS categorizes documents."
+msgstr "必须为每个上传的文档分配文档类型，这是PROGED EDMS对文档进行分类的基本方式。"
 
 #: apps.py:216
 msgid "Versions comment"

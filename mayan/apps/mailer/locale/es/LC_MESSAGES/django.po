@@ -9,7 +9,7 @@
 # Roberto Rosario, 2015-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-11-11 01:45+0000\n"
@@ -251,8 +251,8 @@ msgid "The backend class for this entry."
 msgstr "La clase del controlador para esta entrada."
 
 #: models.py:209
-msgid "Test email from Mayan EDMS"
-msgstr "Correo electrónico de prueba de Mayan EDMS"
+msgid "Test email from PROGED EDMS"
+msgstr "Correo electrónico de prueba de PROGED EDMS"
 
 #: permissions.py:8
 msgid "Send document link via email"

@@ -11,7 +11,7 @@
 # Rogerio Falcone <rogerio@falconeit.com.br>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-10-11 07:15+0000\n"
@@ -34,10 +34,10 @@ msgstr "Criar uma nova fonte de documentos"
 
 #: apps.py:73
 msgid ""
-"Document sources are the way in which new documents are feed to Mayan EDMS, "
+"Document sources are the way in which new documents are feed to PROGED EDMS, "
 "create at least a web form source to be able to upload documents from a "
 "browser."
-msgstr "Fontes de documentos são a forma como os novos documentos são alimentados ao Mayan EDMS. Crie pelo menos uma fonte de formulário da web para poder carregar documentos a partir de um navegador."
+msgstr "Fontes de documentos são a forma como os novos documentos são alimentados ao PROGED EDMS. Crie pelo menos uma fonte de formulário da web para poder carregar documentos a partir de um navegador."
 
 #: apps.py:86
 msgid "Type"
@@ -696,9 +696,9 @@ msgstr "Propriedades do documento"
 #: views.py:294
 msgid ""
 "This could mean that the staging folder is empty. It could also mean that "
-"the operating system user account being used for Mayan EDMS doesn't have the"
+"the operating system user account being used for PROGED EDMS doesn't have the"
 " necessary file system permissions for the folder."
-msgstr "Isso pode significar que a pasta temporária está vazia. Também pode significar que o usuário do sistema operacional usado para o Mayan EDMS nao possui permissões nesta pasta."
+msgstr "Isso pode significar que a pasta temporária está vazia. Também pode significar que o usuário do sistema operacional usado para o PROGED EDMS nao possui permissões nesta pasta."
 
 #: views.py:301
 msgid "No staging files available"

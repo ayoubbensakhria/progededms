@@ -4,11 +4,11 @@
 Direct deployment
 =================
 
-Mayan EDMS should be deployed like any other Django_ project and
-preferably using virtualenv_. Below are some ways to deploy and use Mayan EDMS.
+PROGED EDMS should be deployed like any other Django_ project and
+preferably using virtualenv_. Below are some ways to deploy and use PROGED EDMS.
 
 Being a Django_ and a Python_ project, familiarity with these technologies is
-recommended to better understand why Mayan EDMS does some of the things it
+recommended to better understand why PROGED EDMS does some of the things it
 does.
 
 Compilers and development libraries will be installed to compile runtime
@@ -89,7 +89,7 @@ For another setup that offers more performance and scalability refer to the
        sudo -u |DEFAULT_OS_USERNAME| |MAYAN_PIP_BIN| install -U pip
 
 
-#. Install Mayan EDMS from PyPI:
+#. Install PROGED EDMS from PyPI:
 
    .. code-block:: console
 
@@ -154,9 +154,9 @@ For another setup that offers more performance and scalability refer to the
 
    .. note::
 
-       The generated supervisor file assumes Mayan EDMS is being installed
+       The generated supervisor file assumes PROGED EDMS is being installed
        into ``|MAYAN_INSTALLATION_DIRECTORY|``. If you are installing
-       Mayan EDMS in a different location, you must manually review the produced
+       PROGED EDMS in a different location, you must manually review the produced
        ``|MAYAN_SUPERVISOR_CONF|`` file and update all directory references
        from ``|MAYAN_INSTALLATION_DIRECTORY|`` to match your custom installation directory.
 

@@ -43,11 +43,11 @@ level as configure by the system administrator.
 
 
 
-Workflows in Mayan EDMS are implemented as finite state machines
+Workflows in PROGED EDMS are implemented as finite state machines
 (https://en.wikipedia.org/wiki/Finite-state_machine).
 
 Workflows are mainly used to represent business processes. But they can also be
-used an automation system to customized Mayan EDMS and have it perform some
+used an automation system to customized PROGED EDMS and have it perform some
 tasks automatically.
 
 
@@ -56,7 +56,7 @@ Automation
 
 Besides being able to be executed manually by users, transitions can also be
 programmed execute automatically based on system events. This is called in
-Mayan EDMS transition triggering and is one of the tools available to
+PROGED EDMS transition triggering and is one of the tools available to
 automate business processes.
 
 For example:
@@ -78,16 +78,16 @@ Some examples of state actions currently provided are:
 * Edit the label or the description of a document.
 
 Other time more state actions are being added. Some state actions like the one
-that creates an HTTP POST request allow Mayan EDMS to trigger processes in
+that creates an HTTP POST request allow PROGED EDMS to trigger processes in
 external systems based on the state of a document. One example of this is
 triggering the billing process of an accounting system when an invoice is
-scanned in Mayan EDMS.
+scanned in PROGED EDMS.
 
 Workflow state actions and transitions triggers are new features and are still
 evolving.
 
 Workflows allow translating business logic into a series of states. With the
-addition of state actions and transition triggers, the workflows in Mayan EDMS
+addition of state actions and transition triggers, the workflows in PROGED EDMS
 are no longer just informative but can be part of your actual business
 automation process.
 

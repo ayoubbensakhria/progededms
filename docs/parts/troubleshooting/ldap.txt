@@ -2,7 +2,7 @@
 LDAP
 ====
 
-If you get a ``No module named 'ldap.filter'`` error when starting Mayan EDMS
+If you get a ``No module named 'ldap.filter'`` error when starting PROGED EDMS
 after enabling LDAP, make sure your LDAP settings module is not using
 the same name as a Python or Django library. Instead of using ``ldap.py`` for
 your settings module, use something like ``ldaplogin.py``.

@@ -15,12 +15,12 @@ Simple Docker installation
    in their documentation: https://docs.docker.com/install/
 
    Once the Docker installation is finished, proceed to the link below to install
-   the Docker image for Mayan EDMS.
+   the Docker image for PROGED EDMS.
 
 
-#. Download the Mayan EDMS Docker image:
+#. Download the PROGED EDMS Docker image:
 
-   With Docker properly installed, proceed to download the Mayan EDMS Docker
+   With Docker properly installed, proceed to download the PROGED EDMS Docker
    image using the command:
 
    .. code-block:: console
@@ -89,7 +89,7 @@ Simple Docker installation
    configure to not save its content to disk and to automatically clear up
    memory.
 
-#. Create and run a Mayan EDMS container:
+#. Create and run a PROGED EDMS container:
 
    .. code-block:: console
 
@@ -104,7 +104,7 @@ Simple Docker installation
        -v /docker-volumes/mayan-edms/media:/var/lib/mayan \
        mayanedms/mayanedms:|DOCKER_MAYAN_IMAGE_VERSION|
 
-   The Mayan EDMS container will connect to the PostgreSQL container via the
+   The PROGED EDMS container will connect to the PostgreSQL container via the
    ``172.17.0.1`` IP address (the Docker host's default IP address). It will
    connect using the ``django.db.backends.postgresql`` database driver and
    connect to the ``mayan`` database using the ``mayan`` user with the password

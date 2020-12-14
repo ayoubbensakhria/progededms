@@ -7,7 +7,7 @@
 # Michal Švábík <snadno@lehce.cz>, 2019-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -36,8 +36,8 @@ msgstr "Vytvořit typ dokumentu"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way Mayan EDMS categorizes documents."
-msgstr "Každému nahranému dokumentu musí být přiřazen typ dokumentu, jedná se o základní způsob, jakým Mayan EDMS kategorizuje dokumenty."
+"way PROGED EDMS categorizes documents."
+msgstr "Každému nahranému dokumentu musí být přiřazen typ dokumentu, jedná se o základní způsob, jakým PROGED EDMS kategorizuje dokumenty."
 
 #: apps.py:216
 msgid "Versions comment"

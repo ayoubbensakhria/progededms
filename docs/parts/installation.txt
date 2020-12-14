@@ -2,9 +2,9 @@
 Installation
 ============
 
-The easiest way to use Mayan EDMS is by using the official Docker_ image.
+The easiest way to use PROGED EDMS is by using the official Docker_ image.
 Make sure Docker is properly installed and working before attempting to install
-Mayan EDMS.
+PROGED EDMS.
 
 Requirements
 ============

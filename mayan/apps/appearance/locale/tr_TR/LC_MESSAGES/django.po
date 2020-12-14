@@ -8,7 +8,7 @@
 # serhatcan77 <serhat_can@yahoo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 08:36+0000\n"
@@ -403,7 +403,7 @@ msgid "Getting started"
 msgstr "Başlarken"
 
 #: templates/appearance/home.html:29
-msgid "Before you can fully use Mayan EDMS you need the following:"
+msgid "Before you can fully use PROGED EDMS you need the following:"
 msgstr "Maya EDMS'i tam olarak kullanabilmeniz için aşağıdakilere ihtiyacınız vardır:"
 
 #: templates/appearance/list_header.html:12

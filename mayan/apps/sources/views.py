@@ -294,7 +294,7 @@ class UploadBaseView(MultiFormView):
                                 'This could mean that the staging folder is '
                                 'empty. It could also mean that the '
                                 'operating system user account being used '
-                                'for Mayan EDMS doesn\'t have the necessary '
+                                'for PROGED EDMS doesn\'t have the necessary '
                                 'file system permissions for the folder.'
                             ),
                             'no_results_title': _(

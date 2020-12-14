@@ -14,7 +14,7 @@
 # Yves Dubois <ydubois@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 08:36+0000\n"
@@ -409,8 +409,8 @@ msgid "Getting started"
 msgstr "Démarrage"
 
 #: templates/appearance/home.html:29
-msgid "Before you can fully use Mayan EDMS you need the following:"
-msgstr "Avant de pouvoir utiliser pleinement Mayan EDMS, les éléments suivants sont nécessaires :"
+msgid "Before you can fully use PROGED EDMS you need the following:"
+msgstr "Avant de pouvoir utiliser pleinement PROGED EDMS, les éléments suivants sont nécessaires :"
 
 #: templates/appearance/list_header.html:12
 #, python-format

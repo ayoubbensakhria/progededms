@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Mayan EDMS documentation build configuration file, created by
+# PROGED EDMS documentation build configuration file, created by
 # sphinx-quickstart on Fri Aug 19 05:13:38 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -205,7 +205,7 @@ html_show_sphinx = False
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     (
-        'index', 'MayanEDMS.tex', 'Mayan EDMS Documentation',
+        'index', 'MayanEDMS.tex', 'PROGED EDMS Documentation',
         mayan.__author__, 'manual'
     ),
 ]

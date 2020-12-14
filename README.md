@@ -1,4 +1,4 @@
-# EDMS based on Mayan EDMS
+# EDMS based on PROGED EDMS
 
 Versionnement de documents.
 

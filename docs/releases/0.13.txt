@@ -33,12 +33,12 @@ Registration
 ^^^^^^^^^^^^
 
 Based on requests made by the community for greater commercial support and
-services for Mayan EDMS, a new feature has been added that allows users
-register their copies of Mayan EDMS and better help users with commercial
+services for PROGED EDMS, a new feature has been added that allows users
+register their copies of PROGED EDMS and better help users with commercial
 support packages. Registration for non commercial users is voluntary and
-optional, and in no way affects the functionality of Mayan EDMS. However
+optional, and in no way affects the functionality of PROGED EDMS. However
 even for non commercial users registration offers the advantage of
-automatically branding the user's copy of Mayan EDMS with their name or the
+automatically branding the user's copy of PROGED EDMS with their name or the
 company name in the title area.
 
 
@@ -53,18 +53,18 @@ updates.
 Bootstrap
 ^^^^^^^^^
 
-Setting up Mayan EDMS after installation has been indetified by users as the
-main difficulty when knowledge about Mayan EDMS is relatively low. To
+Setting up PROGED EDMS after installation has been indetified by users as the
+main difficulty when knowledge about PROGED EDMS is relatively low. To
 address this situation a new feature that provides preconfigured setups has been
-added. These preconfigured setups are published in the Mayan EDMS website and
+added. These preconfigured setups are published in the PROGED EDMS website and
 upon synchonization are available to users, this gives users access and integrators
-access to new setups without having to wait for new versions of Mayan EDMS.
+access to new setups without having to wait for new versions of PROGED EDMS.
 Aside from including preconfigured setups, the new bootstrap app
 has the ability of dumping an user's current setup into a serialized text file
 which can be tweaked by hand and sent via email to other users. The possibilities
 enabled by this range from company wide defaults setups to consultants providing
 their clients with customized setups without having to access their clients'
-Mayan EDMS instances.  ``JSON``, ``YAML`` and a custom ``YAML`` format
+PROGED EDMS instances.  ``JSON``, ``YAML`` and a custom ``YAML`` format
 (http://djangosnippets.org/snippets/2461/) are supported by this new app.
 
 
@@ -115,7 +115,7 @@ removes any traces of code and configuration options related to ``UNOCONV``.
 Optimizations
 ^^^^^^^^^^^^^
 
-Inspired by the idea of getting Mayan EDMS running effectively on low power
+Inspired by the idea of getting PROGED EDMS running effectively on low power
 hardware such as the Raspberry Pi, several rounds or profiling and
 optimization were done.
 
@@ -127,7 +127,7 @@ and a 18% query reduction on cache hits.
 Upgrading from a previous version
 ---------------------------------
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

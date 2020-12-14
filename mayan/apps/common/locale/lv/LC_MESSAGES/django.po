@@ -7,7 +7,7 @@
 # Māris Teivāns <maris.teivans@gmail.com>, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 06:46+0000\n"
@@ -187,18 +187,18 @@ msgstr "Laiks uz kādu aizkavēt fona uzdevumus, kas ir atkarīgs no datu bāzes
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by Mayan EDMS. Each string should be a dotted "
+"the list normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Saraksts ar virknēm, kas apzīmē visas lietojumprogrammas, kuras jānoņem no saraksta, kuras parasti uzstāda Mayan EDMS. Katrai virknei vajadzētu būt punktveida Python ceļam uz: lietojumprogrammas konfigurācijas klasi (vēlams) vai paketi, kurā ir lietojumprogramma."
+msgstr "Saraksts ar virknēm, kas apzīmē visas lietojumprogrammas, kuras jānoņem no saraksta, kuras parasti uzstāda PROGED EDMS. Katrai virknei vajadzētu būt punktveida Python ceļam uz: lietojumprogrammas konfigurācijas klasi (vēlams) vai paketi, kurā ir lietojumprogramma."
 
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by Mayan EDMS. Each string should be a dotted "
+"those normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Saraksts ar virknēm, kas apzīmē visas lietojumprogrammas, kas ir uzstādītas ārpus tām, ko parasti uzstāda Mayan EDMS. Katrai virknei vajadzētu būt punktveida Python ceļam uz: lietojumprogrammas konfigurācijas klasi (vēlams) vai paketi, kurā ir lietojumprogramma."
+msgstr "Saraksts ar virknēm, kas apzīmē visas lietojumprogrammas, kas ir uzstādītas ārpus tām, ko parasti uzstāda PROGED EDMS. Katrai virknei vajadzētu būt punktveida Python ceļam uz: lietojumprogrammas konfigurācijas klasi (vēlams) vai paketi, kurā ir lietojumprogramma."
 
 #: settings.py:44
 msgid ""

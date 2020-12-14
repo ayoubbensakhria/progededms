@@ -2,9 +2,9 @@
 Getting started
 ===============
 
-These are the basic concepts you need to understand to start using Mayan EDMS.
+These are the basic concepts you need to understand to start using PROGED EDMS.
 
-The absolute minimum setup to start using Mayan EDMS is:
+The absolute minimum setup to start using PROGED EDMS is:
 
 #. A document type: :doc:`../chapters/document_types`
 #. A document source to add new documents: :doc:`../chapters/sources`

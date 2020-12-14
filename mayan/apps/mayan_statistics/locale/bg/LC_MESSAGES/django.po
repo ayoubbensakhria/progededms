@@ -8,7 +8,7 @@
 # Lyudmil Antonov <lantonov.here@gmail.com>, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2019-10-17 12:12+0000\n"

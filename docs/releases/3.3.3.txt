@@ -53,7 +53,7 @@ Upgrading process
     sudo systemctl stop supervisor
 
 
-Upgrading from Mayan EDMS 3.2.x
+Upgrading from PROGED EDMS 3.2.x
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Install the Python 3 development OS package:
@@ -70,14 +70,14 @@ Upgrading from Mayan EDMS 3.2.x
     sudo -u mayan virtualenv --clear /opt/mayan-edms -p /usr/bin/python3
 
 
-#. Create a home directory for the Mayan EDMS system user:
+#. Create a home directory for the PROGED EDMS system user:
 
    .. code-block:: bash
 
     mkdir /home/mayan
 
 
-#. Grant ownership to the Mayan EDMS system user:
+#. Grant ownership to the PROGED EDMS system user:
 
    .. code-block:: bash
 
@@ -105,7 +105,7 @@ Upgrading from Mayan EDMS 3.2.x
        sudo -u mayan |MAYAN_PIP_BIN| install --no-use-pep517 amqp==|PYTHON_AMQP_VERSION|
 
 
-Upgrade steps from any previous version of Mayan EDMS
+Upgrade steps from any previous version of PROGED EDMS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Remove deprecated requirements:
@@ -116,7 +116,7 @@ Upgrade steps from any previous version of Mayan EDMS
     && sudo -u mayan |MAYAN_PIP_BIN| uninstall -y -r /tmp/removals.txt
 
 
-#. Update the Mayan EDMS Python package:
+#. Update the PROGED EDMS Python package:
 
    .. code-block:: bash
 

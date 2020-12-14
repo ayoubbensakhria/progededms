@@ -8,7 +8,7 @@
 # lilo.panic, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -37,8 +37,8 @@ msgstr "Создать тип документа"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way Mayan EDMS categorizes documents."
-msgstr "Каждому загруженому документу должен быть присвоен тип документа, - это основной способ, которым Mayan EDMS  распределяет документы по категориям."
+"way PROGED EDMS categorizes documents."
+msgstr "Каждому загруженому документу должен быть присвоен тип документа, - это основной способ, которым PROGED EDMS  распределяет документы по категориям."
 
 #: apps.py:216
 msgid "Versions comment"

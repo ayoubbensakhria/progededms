@@ -33,7 +33,7 @@ Dependencies
 ^^^^^^^^^^^^
 
 Versions of django-timezone-field and kombu were pinned to specific version
-known to work correctly. This avoids two installations of Mayan EDMS to end
+known to work correctly. This avoids two installations of PROGED EDMS to end
 up with different versions of these two libraries.
 
 
@@ -73,7 +73,7 @@ User interface
 
 Some remaining instances of the word "weblink" were renamed to "web link".
 
-It was a Mayan EDMS anti-pattern to have the resolved web links and smart
+It was a PROGED EDMS anti-pattern to have the resolved web links and smart
 links show their template edit and delete buttons. This has been rectified
 in this version.
 
@@ -106,7 +106,7 @@ Upgrading process
     sudo systemctl stop supervisor
 
 
-Upgrading from Mayan EDMS 3.2.x
+Upgrading from PROGED EDMS 3.2.x
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Install the Python 3 development OS package:
@@ -123,14 +123,14 @@ Upgrading from Mayan EDMS 3.2.x
     sudo -u mayan virtualenv --clear /opt/mayan-edms -p /usr/bin/python3
 
 
-#. Create a home directory for the Mayan EDMS system user:
+#. Create a home directory for the PROGED EDMS system user:
 
    .. code-block:: bash
 
     mkdir /home/mayan
 
 
-#. Grant ownership to the Mayan EDMS system user:
+#. Grant ownership to the PROGED EDMS system user:
 
    .. code-block:: bash
 
@@ -158,7 +158,7 @@ Upgrading from Mayan EDMS 3.2.x
        sudo -u mayan |MAYAN_PIP_BIN| install --no-use-pep517 amqp==|PYTHON_AMQP_VERSION|
 
 
-Upgrade steps from any previous version of Mayan EDMS
+Upgrade steps from any previous version of PROGED EDMS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Remove deprecated requirements:
@@ -169,7 +169,7 @@ Upgrade steps from any previous version of Mayan EDMS
     && sudo -u mayan |MAYAN_PIP_BIN| uninstall -y -r /tmp/removals.txt
 
 
-#. Update the Mayan EDMS Python package:
+#. Update the PROGED EDMS Python package:
 
    .. code-block:: bash
 

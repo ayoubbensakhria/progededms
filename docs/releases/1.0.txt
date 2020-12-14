@@ -7,7 +7,7 @@ Overview
 --------
 After a year of low activity the focus of this release was to get the code
 updated to work with the most recent version of Django and the most recent
-version of the dependencies Mayan EDMS uses. The goal was to have a strong
+version of the dependencies PROGED EDMS uses. The goal was to have a strong
 and stable 1.0 release so reduction, trimming, warning reductions and bug
 fixes were the primary focus of this cycle. Because of this not much
 emphasis was placed on adding new features, or at least new features
@@ -90,7 +90,7 @@ used for equal or similar purpose in various modules.
 Removal of included 3rd party modules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-One last 3rd party module was included with the source code of Mayan EDMS.
+One last 3rd party module was included with the source code of PROGED EDMS.
 This module is now available on PyPI and fetched during the installation instead
 of being included.
 
@@ -150,15 +150,15 @@ OCR processing support for French and German.
 License change
 ^^^^^^^^^^^^^^
 
-Mayan EDMS is now licensed under the Apache 2.0 license. This means many
-things but the main change is that inclusion of Mayan EDMS into
+PROGED EDMS is now licensed under the Apache 2.0 license. This means many
+things but the main change is that inclusion of PROGED EDMS into
 commercial products is now explicitly allowed.
 
 
 PyPI package
 ^^^^^^^^^^^^
 
-Mayan EDMS has been packaged and submitted to the PyPI_ Python Package Index
+PROGED EDMS has been packaged and submitted to the PyPI_ Python Package Index
 making it even easier to install and use.
 
 
@@ -166,7 +166,7 @@ New REST API
 ^^^^^^^^^^^^
 
 This release feature a completely new REST API and automatic API documentation.
-This new API is also used internally by Mayan EDMS itself.
+This new API is also used internally by PROGED EDMS itself.
 
 
 Other changes
@@ -182,7 +182,7 @@ backend.
 Upgrading from a previous version
 ---------------------------------
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

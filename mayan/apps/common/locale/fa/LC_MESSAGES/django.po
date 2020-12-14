@@ -8,7 +8,7 @@
 # Mohammad Dashtizadeh <mohammad@dashtizadeh.net>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 06:46+0000\n"
@@ -188,7 +188,7 @@ msgstr "زمان برای به تاخیر انداختن وظایف پس زمی�
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by Mayan EDMS. Each string should be a dotted "
+"the list normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
 msgstr ""
@@ -196,7 +196,7 @@ msgstr ""
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by Mayan EDMS. Each string should be a dotted "
+"those normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
 msgstr ""

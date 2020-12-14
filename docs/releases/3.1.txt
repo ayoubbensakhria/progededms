@@ -22,7 +22,7 @@ terms of features or improvement to existing feature but also focused in fixing
 Client side caching of images
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Mayan EDMS already does extensive caching of content. Currently the caching
+PROGED EDMS already does extensive caching of content. Currently the caching
 happens on the environment running the Python code. This release adds code
 that allows browsers to cache some of the more used images like thumbnails
 increasing the display speed of frequently used views. We devised a hashing
@@ -445,7 +445,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

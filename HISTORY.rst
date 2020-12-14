@@ -2370,7 +2370,7 @@
 - SearchModel retrun interface changed. The class no longer returns the
   result_set value. Use the queryset returned instead.
 - Update to Font Awesome 5.
-- Turn Mayan EDMS into a single page app.
+- Turn PROGED EDMS into a single page app.
 - Split base.js into mayan_app.js, mayan_image.js, partial_navigation.js.
 - Add a HOME_VIEW setting. Use it for the default view to be loaded.
 - Fix bug in document page view. Was storing the URL and the querystring

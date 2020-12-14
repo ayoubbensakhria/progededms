@@ -7,7 +7,7 @@
 # Marco Camplese <marco.camplese.mc@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-04-28 03:38+0000\n"

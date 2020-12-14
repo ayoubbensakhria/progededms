@@ -13,7 +13,7 @@
 # Roberto Rosario, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-30 04:19+0000\n"
@@ -193,18 +193,18 @@ msgstr "Il ritardo per i task in background dipende dalla propagazione del commi
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by Mayan EDMS. Each string should be a dotted "
+"the list normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Un elenco di stringhe che designano tutte le applicazioni che devono essere rimosse dall'elenco normalmente installato da Mayan EDMS. Ogni stringa dovrebbe essere un percorso Python puntato a: una classe di configurazione dell'applicazione (preferita) o un pacchetto contenente un'applicazione."
+msgstr "Un elenco di stringhe che designano tutte le applicazioni che devono essere rimosse dall'elenco normalmente installato da PROGED EDMS. Ogni stringa dovrebbe essere un percorso Python puntato a: una classe di configurazione dell'applicazione (preferita) o un pacchetto contenente un'applicazione."
 
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by Mayan EDMS. Each string should be a dotted "
+"those normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Un elenco di stringhe che designano tutte le applicazioni installate oltre a quelle normalmente installate da Mayan EDMS. Ogni stringa dovrebbe essere un percorso Python puntato a: una classe di configurazione dell'applicazione (preferita) o un pacchetto contenente un'applicazione."
+msgstr "Un elenco di stringhe che designano tutte le applicazioni installate oltre a quelle normalmente installate da PROGED EDMS. Ogni stringa dovrebbe essere un percorso Python puntato a: una classe di configurazione dell'applicazione (preferita) o un pacchetto contenente un'applicazione."
 
 #: settings.py:44
 msgid ""

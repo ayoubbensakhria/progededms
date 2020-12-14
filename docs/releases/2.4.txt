@@ -35,7 +35,7 @@ page (from a default of 40) to 50 documents, set the environment variable
 
     $ export MAYAN_COMMON_PAGINATE_BY=50
 
-and restart Mayan EDMS. A list of the configuration options can be found in the
+and restart PROGED EDMS. A list of the configuration options can be found in the
 :menuselection:`Setup --> Settings` menu.
 
 
@@ -124,7 +124,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull
@@ -170,6 +170,6 @@ Bugs fixed or issues closed
 * :gitlab-issue:`387` Document Scanning not Functioning on rotated landscape PDF's
 * :gitlab-issue:`389` How can we map permissions with a particular role using REST API?
 * :gitlab-issue:`390` Id is not getting in response
-* :gitlab-issue:`391` "Rebuild indexes" does not work in Mayan EDMS 2.3
+* :gitlab-issue:`391` "Rebuild indexes" does not work in PROGED EDMS 2.3
 
 .. _PyPI: https://pypi.python.org/pypi/mayan-edms/

@@ -13,7 +13,7 @@
 # Yves Dubois <ydubois@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-10-11 07:15+0000\n"
@@ -36,10 +36,10 @@ msgstr "Créer une source de documents"
 
 #: apps.py:73
 msgid ""
-"Document sources are the way in which new documents are feed to Mayan EDMS, "
+"Document sources are the way in which new documents are feed to PROGED EDMS, "
 "create at least a web form source to be able to upload documents from a "
 "browser."
-msgstr "Les sources de documents sont les manières par lesquelles les nouveaux documents seront intégrés dans Mayan EDMS ; créez au moins un formulaire web pour pouvoir télécharger des documents depuis le navigateur."
+msgstr "Les sources de documents sont les manières par lesquelles les nouveaux documents seront intégrés dans PROGED EDMS ; créez au moins un formulaire web pour pouvoir télécharger des documents depuis le navigateur."
 
 #: apps.py:86
 msgid "Type"
@@ -698,7 +698,7 @@ msgstr "Propriétés du document"
 #: views.py:294
 msgid ""
 "This could mean that the staging folder is empty. It could also mean that "
-"the operating system user account being used for Mayan EDMS doesn't have the"
+"the operating system user account being used for PROGED EDMS doesn't have the"
 " necessary file system permissions for the folder."
 msgstr ""
 

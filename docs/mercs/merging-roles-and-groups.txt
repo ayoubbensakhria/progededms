@@ -21,10 +21,10 @@ This MERC proposes the merging of the Roles and Group models.
 Rationale
 =========
 
-Mayan EDMS uses Groups as units of users that are meant to mirror an
+PROGED EDMS uses Groups as units of users that are meant to mirror an
 organization's actual user hierarchy. Roles are used as permission units.
 
-Separation of concerns is a concept Mayan EDMS executes very successfully
+Separation of concerns is a concept PROGED EDMS executes very successfully
 but when it comes to the Roles/Groups relationship that execution causes
 overheads without providing advantages in the day to day operations.
 
@@ -37,7 +37,7 @@ Motivation
 ==========
 
 Merging the Role and Group model will reduce some complexity when initially
-setting up Mayan EDMS. The merge allows removing a Mayan EDMS model in
+setting up PROGED EDMS. The merge allows removing a PROGED EDMS model in
 favor of using a native Django model for the same task.
 
 Merging the Role and Group models will also provide a speed boost in every

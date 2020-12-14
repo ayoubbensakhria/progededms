@@ -104,7 +104,7 @@ Upgrading process
     sudo systemctl stop supervisor
 
 
-Upgrading from Mayan EDMS 3.2.x or earlier
+Upgrading from PROGED EDMS 3.2.x or earlier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Update the Redis configuration:
@@ -135,14 +135,14 @@ Upgrading from Mayan EDMS 3.2.x or earlier
     sudo -u |DEFAULT_OS_USERNAME| virtualenv --clear /opt/mayan-edms -p /usr/bin/python3
 
 
-#. Create a home directory for the Mayan EDMS system user:
+#. Create a home directory for the PROGED EDMS system user:
 
    .. code-block:: bash
 
     mkdir /home/mayan
 
 
-#. Grant ownership to the Mayan EDMS system user:
+#. Grant ownership to the PROGED EDMS system user:
 
    .. code-block:: bash
 
@@ -170,7 +170,7 @@ Upgrading from Mayan EDMS 3.2.x or earlier
        sudo -u |DEFAULT_OS_USERNAME| |MAYAN_PIP_BIN| install amqp==|PYTHON_AMQP_VERSION|
 
 
-Upgrading from Mayan EDMS 3.3.x
+Upgrading from PROGED EDMS 3.3.x
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Upgrade to the latest pip version:
@@ -196,7 +196,7 @@ Upgrading from Mayan EDMS 3.3.x
     && sudo -u |DEFAULT_OS_USERNAME| |MAYAN_PIP_BIN| uninstall -y -r /tmp/removals.txt
 
 
-#. Update the Mayan EDMS Python package:
+#. Update the PROGED EDMS Python package:
 
    .. code-block:: bash
 

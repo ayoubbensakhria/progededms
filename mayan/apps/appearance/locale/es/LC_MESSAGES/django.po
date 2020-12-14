@@ -7,7 +7,7 @@
 # Roberto Rosario, 2015-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 08:36+0000\n"
@@ -402,8 +402,8 @@ msgid "Getting started"
 msgstr "Primeros pasos"
 
 #: templates/appearance/home.html:29
-msgid "Before you can fully use Mayan EDMS you need the following:"
-msgstr "Antes de comenzar a utilizar Mayan EDMS usted necesita lo siguiente:"
+msgid "Before you can fully use PROGED EDMS you need the following:"
+msgstr "Antes de comenzar a utilizar PROGED EDMS usted necesita lo siguiente:"
 
 #: templates/appearance/list_header.html:12
 #, python-format

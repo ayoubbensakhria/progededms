@@ -45,7 +45,7 @@ class ReleaseNoteExporter:
         with path_documentation.open(mode='r') as file_object:
             content = []
 
-            content.append('New version of Mayan EDMS available\n')
+            content.append('New version of PROGED EDMS available\n')
             content.append('===================================\n\n\n\n\n\n')
 
             content.append(

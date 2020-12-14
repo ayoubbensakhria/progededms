@@ -17,7 +17,7 @@
 # Tobias Paepke <tobias.paepke@paepke.net>, 2014,2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 06:46+0000\n"
@@ -197,7 +197,7 @@ msgstr "Zeit für die Verzögerung von Hintergrundaufgaben, die für ihre Fortse
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by Mayan EDMS. Each string should be a dotted "
+"the list normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
 msgstr "Eine Liste mit Strings aller Applikationen, welche für diese Django-Installation aktiviert sind. Jede Zeichenfolge muss ein punktuierter Pythonpfad zu einer Anwendungskonfigurationsklasse (bevorzugt) oder einem Anwendungspaket sein."
@@ -205,10 +205,10 @@ msgstr "Eine Liste mit Strings aller Applikationen, welche für diese Django-Ins
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by Mayan EDMS. Each string should be a dotted "
+"those normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Eine Liste von Strings, die alle Anwendungen angeben, die über die normalerweise von Mayan EDMS installierten Anwendungen hinaus installiert wurden. Jede Zeichenfolge sollte ein punktuierter Python-Pfad sein zu: einer Anwendungskonfigurationsklasse (bevorzugt) oder einem Paket, das eine Anwendung enthält."
+msgstr "Eine Liste von Strings, die alle Anwendungen angeben, die über die normalerweise von PROGED EDMS installierten Anwendungen hinaus installiert wurden. Jede Zeichenfolge sollte ein punktuierter Python-Pfad sein zu: einer Anwendungskonfigurationsklasse (bevorzugt) oder einem Paket, das eine Anwendung enthält."
 
 #: settings.py:44
 msgid ""

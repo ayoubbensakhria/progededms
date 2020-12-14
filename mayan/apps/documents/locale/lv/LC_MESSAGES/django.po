@@ -7,7 +7,7 @@
 # Māris Teivāns <maris.teivans@gmail.com>, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -36,8 +36,8 @@ msgstr "Izveidojiet dokumenta veidu"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way Mayan EDMS categorizes documents."
-msgstr "Katram augšupielādētajam dokumentam ir jāpiešķir dokumenta veids, tas ir galvenais veids, kā Mayan EDMS kategorizē dokumentus."
+"way PROGED EDMS categorizes documents."
+msgstr "Katram augšupielādētajam dokumentam ir jāpiešķir dokumenta veids, tas ir galvenais veids, kā PROGED EDMS kategorizē dokumentus."
 
 #: apps.py:216
 msgid "Versions comment"

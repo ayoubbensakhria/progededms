@@ -10,7 +10,7 @@ Update to Django 1.7
 ^^^^^^^^^^^^^^^^^^^^
 
 The biggest change of this release comes in the form of support for Django 1.7.
-Mayan EDMS makes use of several new features of Django 1.7 like: migrations,
+PROGED EDMS makes use of several new features of Django 1.7 like: migrations,
 app config and transaction handling. The version of Django supported in this
 version is 1.7.10. With the move to Django 1.7, support for South migrations
 and Python 2.6 is removed. The switch to Django 1.7's app config means that
@@ -31,7 +31,7 @@ Theming and re-branding
 
 All the presentation logic and markup has been moved into it's own app, the
 'appearance' app. All modifications required to customize the entire look of
-the Mayan EDMS can now be done in a single app. Very little markup remains
+the PROGED EDMS can now be done in a single app. Very little markup remains
 in the other apps, and it's usually because of necessity, namely the widgets.py
 modules.
 
@@ -232,11 +232,11 @@ Failure tolerance
 
 Previous versions made use of transactions to prevent data loss in the event of
 an unexpected error. This release improves on that approach by also reacting
-to infrastructure failures. Mayan EDMS can now recover without any or
+to infrastructure failures. PROGED EDMS can now recover without any or
 minimal data loss from critical events such as loss of connectivity to the
 database manager. This changes allow installation of using database managers
 that do not provide guaranteed concurrency such as SQLite, to scale to thousand
-of documents. While this configuration is still not recommended, Mayan EDMS
+of documents. While this configuration is still not recommended, PROGED EDMS
 will now work and scale much better in environments where parts of the
 infrastructure cannot be changed (such as the database manager).
 
@@ -261,7 +261,7 @@ Default document type and default document source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After installation a default document type and document source are created,
-this means that users can start uploading documents as soon as Mayan EDMS
+this means that users can start uploading documents as soon as PROGED EDMS
 is installed without having to do any configuration setting changes. The
 default document type and default document source are both called 'Default'.
 
@@ -454,7 +454,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull
@@ -523,7 +523,7 @@ Bugs fixed or issues closed
 * :gitlab-issue:`60` Backport class based navigation code from the unstable branch
 * :gitlab-issue:`62` Simplify and reduce code in templates
 * :gitlab-issue:`67` Python 3 compatibility: Update models __unicode__ methdo to __str__ methods (using Django's six library)
-* :gitlab-issue:`121` Twitter Bootstrap theme for Mayan EDMS
+* :gitlab-issue:`121` Twitter Bootstrap theme for PROGED EDMS
 * :gitlab-issue:`155` Header does not fit list on documents/list on small screens (laptop)
 * :gitlab-issue:`170` Remove use of python-hkp
 * :gitlab-issue:`182` Reorganize signal processors

@@ -51,7 +51,7 @@ port of 5432 for this installation.
        --requirepass mayanredispassword
 
 
-#. Launch the Mayan EDMS container with the network option and change the
+#. Launch the PROGED EDMS container with the network option and change the
    database hostname to the PostgreSQL container name (``mayan-edms-postgres``)
    instead of the IP address of the Docker host (``172.17.0.1``):
 

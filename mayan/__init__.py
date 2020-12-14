@@ -1,4 +1,4 @@
-__title__ = 'Mayan EDMS'
+__title__ = 'PROGED EDMS'
 __version__ = '3.5.3'
 __build__ = 0x030503
 __build_string__ = 'v3.5.3_Wed Nov 11 05:26:31 2020 -0400'

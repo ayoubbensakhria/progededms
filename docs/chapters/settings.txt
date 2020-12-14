@@ -2,7 +2,7 @@
 Settings
 ========
 
-Mayan EDMS can be configure using various methods.
+PROGED EDMS can be configure using various methods.
 
 
 .. _environment_variables:
@@ -26,7 +26,7 @@ use:
 
     export MAYAN_COMMON_PAGINATE_BY=10
 
-Restart Mayan EDMS and the new value will take effect. The Settings menu
+Restart PROGED EDMS and the new value will take effect. The Settings menu
 can be used to verify if the overridden setting value is being interpreted
 correctly.
 
@@ -57,7 +57,7 @@ It is possible to modify the different settings by creating or editing the
     FILE_UPLOAD_MAX_MEMORY_SIZE: 2621440
     HOME_VIEW: common:home
 
-Every time Mayan EDMS is able to start correctly it will copy the ``config.yml``
+Every time PROGED EDMS is able to start correctly it will copy the ``config.yml``
 and create a backup copy in the same directory named ``config_backup.yml``.
 This file is used to revert to the last know configuration file known
 to be valid. You can revert manually by copy the file or by using the
@@ -67,17 +67,17 @@ to be valid. You can revert manually by copy the file or by using the
 Via Python settings files
 =========================
 
-Another way to configure Mayan EDMS and the one required when more extensive
+Another way to configure PROGED EDMS and the one required when more extensive
 setup is required (such as when using external Python libraries), is via
 Python-style, settings files. A folder named ``mayan_settings`` is created
 for the purpose of hosting these settings files.
 
-If you installed Mayan EDMS according to the :doc:`../chapters/deploying`
+If you installed PROGED EDMS according to the :doc:`../chapters/deploying`
 instructions provided in this documentation, your ``mayan_settings`` folder
 should be located in the directory: ``|MAYAN_MEDIA_ROOT|/mayan_settings/``.
 
-If Mayan EDMS was installed using Docker, the ``mayan_settings`` folder
-will be found inside the Docker volume. If you installed Mayan EDMS
+If PROGED EDMS was installed using Docker, the ``mayan_settings`` folder
+will be found inside the Docker volume. If you installed PROGED EDMS
 according to the :doc:`../chapters/docker/index` instructions provided in this
 documentation your ``mayan_settings`` folder should be located in the directory:
 ``/docker-volumes/mayan/mayan_settings``.
@@ -110,7 +110,7 @@ when using the environment variable method.
 
 For this example let's assume the file was saved with the name ``mysettings.py``.
 
-The way used to tell Mayan EDMS to import this file will vary based on the
+The way used to tell PROGED EDMS to import this file will vary based on the
 installation method.
 
 For the :doc:`../chapters/deploying` method, the full import path will be
@@ -152,8 +152,8 @@ For the :doc:`../chapters/docker/index` installation method, the full import pat
 .. note::
 
    The settings files must be valid Python modules. Errors in the Python
-   settings files might prevent Mayan EDMS for starting properly. Error other
-   than syntax errors, might not prevent Mayan EDMS from starting up but
+   settings files might prevent PROGED EDMS for starting properly. Error other
+   than syntax errors, might not prevent PROGED EDMS from starting up but
    might not apply correctly or cause operation issues.
 
 

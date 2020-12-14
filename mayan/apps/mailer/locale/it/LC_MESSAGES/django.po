@@ -8,7 +8,7 @@
 # Roberto Rosario, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-11-11 01:45+0000\n"
@@ -250,7 +250,7 @@ msgid "The backend class for this entry."
 msgstr "La classe di backend per questa voce."
 
 #: models.py:209
-msgid "Test email from Mayan EDMS"
+msgid "Test email from PROGED EDMS"
 msgstr "Email di prova da Maya EDMS"
 
 #: permissions.py:8

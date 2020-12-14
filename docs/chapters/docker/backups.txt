@@ -4,7 +4,7 @@
 Performing backups
 ==================
 
-To perform a backing up of a Mayan EDMS installation, two things need to be
+To perform a backing up of a PROGED EDMS installation, two things need to be
 backed up:
 
 #. Document files

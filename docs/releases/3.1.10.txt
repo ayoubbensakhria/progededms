@@ -25,7 +25,7 @@ now behave the same and will benefit from all improvements in the base test case
 classes. Some indexing tests were failing randomly. This was caused by the way
 the test were built and not because of faulty code. The tests were updated and
 now operate as expected. While there is no official support for installing
-Mayan EDMS as a sub URL updates to the ``TestViewTestCaseMixin`` will allow it to
+PROGED EDMS as a sub URL updates to the ``TestViewTestCaseMixin`` will allow it to
 execute with custom ``ROOT_URLCONF`` configurations. Further work and feedback is
 needed to officially support this installation method.
 
@@ -73,11 +73,11 @@ issues on some browsers.
 Emails
 ^^^^^^
 
-An update was added to will now cause Mayan EDMS to reject all email attachments
+An update was added to will now cause PROGED EDMS to reject all email attachments
 with a size 0 even if the attachment is valid. Documents of size 0 are not
-consideref valid in Mayan EDMS since they can't be introspected for MIME type,
+consideref valid in PROGED EDMS since they can't be introspected for MIME type,
 don't contain at least one version, and don't contain a single page. All these
-are requirements for a valid document in Mayan EDMS.
+are requirements for a valid document in PROGED EDMS.
 
 
 Memory usage
@@ -129,7 +129,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

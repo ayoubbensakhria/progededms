@@ -11,7 +11,7 @@
 # woei <root@ipaddr.nl>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 06:46+0000\n"
@@ -61,7 +61,7 @@ msgstr "Controleert de juiste opmaak van het README-bestand."
 
 #: links.py:31
 msgid "About this"
-msgstr "Over Mayan EDMS"
+msgstr "Over PROGED EDMS"
 
 #: links.py:34
 msgid "Get the book"
@@ -191,18 +191,18 @@ msgstr "Wachttijd voor achtergrondtaken die afhankelijk zijn van het verbreiden 
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by Mayan EDMS. Each string should be a dotted "
+"the list normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Een lijst met tekenreeksen die alle toepassingen aanduiden die moeten worden verwijderd uit de lijst die normaal door Mayan EDMS wordt geïnstalleerd. Elke string moet een Python-pad zijn naar: een toepassingsconfiguratieklasse (bij voorkeur) of een pakket met een toepassing."
+msgstr "Een lijst met tekenreeksen die alle toepassingen aanduiden die moeten worden verwijderd uit de lijst die normaal door PROGED EDMS wordt geïnstalleerd. Elke string moet een Python-pad zijn naar: een toepassingsconfiguratieklasse (bij voorkeur) of een pakket met een toepassing."
 
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by Mayan EDMS. Each string should be a dotted "
+"those normally installed by PROGED EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Een lijst met tekenreeksen die alle applicaties aanduiden die zijn geïnstalleerd buiten de applicaties die normaal door Mayan EDMS zijn geïnstalleerd. Elke tekenreeks moet een Python-pad zijn naar: een toepassingsconfiguratieklasse (bij voorkeur) of een pakket met een toepassing."
+msgstr "Een lijst met tekenreeksen die alle applicaties aanduiden die zijn geïnstalleerd buiten de applicaties die normaal door PROGED EDMS zijn geïnstalleerd. Elke tekenreeks moet een Python-pad zijn naar: een toepassingsconfiguratieklasse (bij voorkeur) of een pakket met een toepassing."
 
 #: settings.py:44
 msgid ""

@@ -12,7 +12,7 @@ Changes
 - Added a quick rename serializer to the document type API serializer.
 - Added per document type, workflow list API view. The URL for this endpoint is
   GET /api/document_states/document_type/{pk}/workflows/
-- Added Developer Certificate of Origin. Mayan EDMS was adopted a version 1.1 of
+- Added Developer Certificate of Origin. PROGED EDMS was adopted a version 1.1 of
   the Linux Foundation Developer Certificate of Origin. All commits must be
   signed (`git commit -s`) in order to be merged.
 - Added the detail url of a permission in the permission serializer.
@@ -23,7 +23,7 @@ Changes
   ``MAYAN_CELERY_CLASS`` and expects a dotted python path to the class to use.
 - Changed the document upload view in source app to not use the HTTP referer
   URL blindly, but instead recompose the URL using known view name. Needed
-  when integrating Mayan EDMS into other app via using iframes.
+  when integrating PROGED EDMS into other app via using iframes.
 - Addes size field to the document version serializer.
 - Removed the serializer from the deleted document restore API endpoint
   it doesn't need a serializer being just an action POST endpoint.
@@ -53,7 +53,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed Mayan EDMS by cloning the Git repository issue the commands::
+If you installed PROGED EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

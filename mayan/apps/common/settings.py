@@ -23,7 +23,7 @@ setting_disabled_apps = namespace.add_setting(
     default=settings.COMMON_DISABLED_APPS,
     help_text=_(
         'A list of strings designating all applications that are to be removed '
-        'from the list normally installed by Mayan EDMS. Each string should be '
+        'from the list normally installed by PROGED EDMS. Each string should be '
         'a dotted Python path to: an application configuration class (preferred), '
         'or a package containing an application.'
     ),
@@ -33,7 +33,7 @@ setting_extra_apps = namespace.add_setting(
     default=settings.COMMON_EXTRA_APPS,
     help_text=_(
         'A list of strings designating all applications that are installed '
-        'beyond those normally installed by Mayan EDMS. Each string should be '
+        'beyond those normally installed by PROGED EDMS. Each string should be '
         'a dotted Python path to: an application configuration class (preferred), '
         'or a package containing an application.'
     ),

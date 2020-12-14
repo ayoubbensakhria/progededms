@@ -15,9 +15,9 @@ MERC 1: Purpose and Guidelines
 What is a MERC?
 ===============
 
-A Mayan EDMS Request For Comment document or MERC document is a design
-document providing information to the Mayan EDMS community, or
-describing a new feature or process for Mayan EDMS. MERCs provide
+A PROGED EDMS Request For Comment document or MERC document is a design
+document providing information to the PROGED EDMS community, or
+describing a new feature or process for PROGED EDMS. MERCs provide
 concise technical specifications of features, along with rationales.
 
 MERC Types
@@ -26,24 +26,24 @@ MERC Types
 There are three kinds of MERCs:
 
 1. A **Feature** MERC describes a new feature or implementation
-for Mayan EDMS. Most MERCs will be Feature MERCs.
+for PROGED EDMS. Most MERCs will be Feature MERCs.
 
-2. An **Informational** MERC describes a Mayan EDMS design issue, or
-provides general guidelines or information to the Mayan EDMS community,
+2. An **Informational** MERC describes a PROGED EDMS design issue, or
+provides general guidelines or information to the PROGED EDMS community,
 but does not propose a new feature. Informational MERCs do not
 necessarily represent a community consensus or recommendation, so users
 and implementers are free to ignore Informational MERCs or follow their
 advice.
 
-3. A **Process** MERC describes a process surrounding Mayan EDMS, or
+3. A **Process** MERC describes a process surrounding PROGED EDMS, or
 proposes a change to (or an event in) a process.  Process MERCs are
-like Feature MERCs but apply to areas other than the Mayan EDMS
+like Feature MERCs but apply to areas other than the PROGED EDMS
 framework itself.  They may propose an implementation, but not to
-Mayan EDMS's codebase; they often require community consensus; unlike
+PROGED EDMS's codebase; they often require community consensus; unlike
 Informational MERCs, they are more than recommendations, and users
 are typically not free to ignore them.  Examples include
 procedures, guidelines, changes to the decision-making process, and
-changes to the tools or environment used in Mayan EDMS development.
+changes to the tools or environment used in PROGED EDMS development.
 Any meta-MERC is also considered a Process MERC. (So this document
 is a Process MERC).
 
@@ -53,16 +53,16 @@ MERC submission workflow
 Pre-proposal
 ------------
 
-The MERC process begins with a new idea for Mayan EDMS. It is highly recommended
+The MERC process begins with a new idea for PROGED EDMS. It is highly recommended
 that a single MERC contain a single key proposal or new idea. Small enhancements
-or patches usually don't need a MERC and follow Mayan EDMS's normal contribution
+or patches usually don't need a MERC and follow PROGED EDMS's normal contribution
 process.
 
 MERCs should be focused on a single topic. If in doubt, split your MERC
 into several well-focused ones.
 
 Once the idea's been vetted, a draft MERC should be presented to the
-Mayan EDMS mailing list. This gives the author a chance to flesh out the
+PROGED EDMS mailing list. This gives the author a chance to flesh out the
 draft MERC to make sure it's properly formatted, of high quality, and to address
 initial concerns about the proposal.
 
@@ -72,8 +72,8 @@ The Core Developers will be responsible for accepting or rejecting the MERC prop
 Submitting the draft
 --------------------
 
-Following the discussion on Mayan EDMS mailing list, the proposal
-should be sent as a merge request to the Mayan EDMS repository. The draft must
+Following the discussion on PROGED EDMS mailing list, the proposal
+should be sent as a merge request to the PROGED EDMS repository. The draft must
 be written in MERC style; if it isn't the merge request may be rejected until proper
 formatting rules are followed.
 
@@ -95,7 +95,7 @@ MERCs need to follow a common format and outline; this section describes
 that format.
 
 MERCs must be written in `reStructuredText <http://docutils.sourceforge.net/rst.html>`_
-(the same format as Mayan EDMS's documentation).
+(the same format as PROGED EDMS's documentation).
 
 Each MERC should have the following parts:
 
@@ -141,7 +141,7 @@ Each MERC should have the following parts:
    principle of "rough consensus and running code" is still useful when it comes
    to resolving many discussions of API details.
 
-   The final implementation must include tests and documentation, per Mayan EDMS
+   The final implementation must include tests and documentation, per PROGED EDMS
    development guide.
 
 
@@ -171,8 +171,8 @@ The headers must contain the following fields:
 ``Requires``
     If this MERC depends on another MERC being implemented first,
     this should be a link to the required MERC.
-``Mayan EDMS-Version`` (optional)
-    For Feature MERCs, the version of Mayan EDMS (e.g. ``2.7.3``) that this
+``PROGED EDMS-Version`` (optional)
+    For Feature MERCs, the version of PROGED EDMS (e.g. ``2.7.3``) that this
     feature will be released in.
 ``Replaces`` and ``Superseded-By`` (optional)
     These fields indicate that a MERC has been rendered obsolete. The newer MERC

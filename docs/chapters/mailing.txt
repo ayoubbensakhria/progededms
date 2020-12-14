@@ -2,7 +2,7 @@
 Mailing documents
 =================
 
-Sending emails in Mayan EDMS is controlled by two different system depending on
+Sending emails in PROGED EDMS is controlled by two different system depending on
 the type of email being sent. These are:
 
 - administrative emails like password reset emails
@@ -15,7 +15,7 @@ Application emails
 ==================
 
 To allow users to send emails or documents from within the web interface,
-Mayan EDMS provides its our own email system called Mailing Profiles.
+PROGED EDMS provides its our own email system called Mailing Profiles.
 Mailing Profiles support access control per user role and can use different
 email backends.
 

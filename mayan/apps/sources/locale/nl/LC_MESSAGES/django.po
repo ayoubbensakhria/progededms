@@ -9,7 +9,7 @@
 # Lucas Weel <ljj.weel@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: Mayan EDMS\n"
+"Project-Id-Version: PROGED EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-10-11 07:15+0000\n"
@@ -32,10 +32,10 @@ msgstr "Maak een documentbron aan"
 
 #: apps.py:73
 msgid ""
-"Document sources are the way in which new documents are feed to Mayan EDMS, "
+"Document sources are the way in which new documents are feed to PROGED EDMS, "
 "create at least a web form source to be able to upload documents from a "
 "browser."
-msgstr "Documentbronnen zijn de manier waarop nieuwe documenten aan Mayan EDMS worden aangeboden. Maak ten minste een webformulier aan om documenten te kunnen uploaden via een webbrowser."
+msgstr "Documentbronnen zijn de manier waarop nieuwe documenten aan PROGED EDMS worden aangeboden. Maak ten minste een webformulier aan om documenten te kunnen uploaden via een webbrowser."
 
 #: apps.py:86
 msgid "Type"
@@ -694,9 +694,9 @@ msgstr "Document-eigenschappen"
 #: views.py:294
 msgid ""
 "This could mean that the staging folder is empty. It could also mean that "
-"the operating system user account being used for Mayan EDMS doesn't have the"
+"the operating system user account being used for PROGED EDMS doesn't have the"
 " necessary file system permissions for the folder."
-msgstr "Dit kan betekenen dat de netwerkmap leeg is. Het is ook mogelijk dat het besturingssysteem van het gebruikersaccount dat voor Mayan EDMS gebruikt wordt, over onvoldoende gebruiksrechten voor de map beschikt."
+msgstr "Dit kan betekenen dat de netwerkmap leeg is. Het is ook mogelijk dat het besturingssysteem van het gebruikersaccount dat voor PROGED EDMS gebruikt wordt, over onvoldoende gebruiksrechten voor de map beschikt."
 
 #: views.py:301
 msgid "No staging files available"

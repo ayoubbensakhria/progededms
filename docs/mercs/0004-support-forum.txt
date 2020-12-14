@@ -28,7 +28,7 @@ significant update in years and the age of the platform is visible. There
 are no official mobile apps for Google Groups, no responsible template
 is not provided. There are not integration options. These factors
 contribute to the problems of knowledge dilution and one time
-participation being experienced in the Mayan EDMS community.
+participation being experienced in the PROGED EDMS community.
 
 Other concerns for moving the community to a self hosted forum solution
 are that Google Groups presents a single point of failure by relying on
