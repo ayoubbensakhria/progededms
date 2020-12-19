@@ -11,6 +11,7 @@ items:
       io.kompose.service: app
     name: app
   spec:
+    type: LoadBalancer
     ports:
     - name: "80"
       port: 80
@@ -136,12 +137,13 @@ items:
           - name: POSTGRES_USER
             value: mayan
           image: postgres:9.6-alpine
-          imagePullPolicy: ""
+          imagePullPolicy: Always
           name: postgresql
           resources: {}
           volumeMounts:
           - mountPath: /var/lib/postgresql/data
             name: postgres
+            subPath: postgres
         restartPolicy: Always
         serviceAccountName: ""
         volumes:
@@ -161,7 +163,7 @@ items:
     - ReadWriteOnce
     resources:
       requests:
-        storage: 100Mi
+        storage: 5Gi
   status: {}
 - apiVersion: extensions/v1beta1
   kind: NetworkPolicy
@@ -188,6 +190,7 @@ items:
       io.kompose.service: redis
     name: redis
   spec:
+
     replicas: 1
     selector:
       matchLabels:
@@ -227,6 +230,8 @@ items:
           imagePullPolicy: ""
           name: redis
           resources: {}
+          ports:
+          - containerPort: 6379
           volumeMounts:
           - mountPath: /data
             name: redis
