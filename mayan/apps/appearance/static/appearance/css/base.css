@@ -519,6 +519,10 @@ a i {
     }
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
 .menu-main-opened {
     display: block !important;
     left: 0 !important;
