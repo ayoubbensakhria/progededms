@@ -17,6 +17,7 @@ body {
 
 .navbar-brand {
     font-family: "IM Fell English SC", serif;
+    padding:10px;
 }
 
 #fancybox-left-ico {
@@ -202,11 +203,11 @@ a i {
 }
 
 .panel-highlighted {
-    box-shadow: 0px 0px 3px #18bc9c, 10px 10px 20px #000000;
+    box-shadow: 0px 0px 3px #009fe3, 10px 10px 20px #000000;
 }
 
 .panel-highlighted:hover {
-    box-shadow: 0px 0px 3px #18bc9c, 10px 10px 20px #000000, 0px 0px 8px #000000;
+    box-shadow: 0px 0px 3px #009fe3, 10px 10px 20px #000000, 0px 0px 8px #000000;
 }
 
 .panel-item:not(.panel-highlighted):hover  {
@@ -432,8 +433,8 @@ a i {
 
 #menu-main {
     display: block;
-    background-color: #2c3e50;
-    border-right: 1px solid #18bc9c;
+    background-color: #ecf0f1;
+    border-right: 1px solid #ecf0f1;
     bottom: 0;
     left: -210px;
     overflow-x: hidden;
@@ -542,7 +543,8 @@ a i {
 }
 
 #accordion-sidebar a[aria-expanded="true"] {
-    background: #1a242f;
+    background: #94a5a6;
+    color:white;
 }
 
 #accordion-sidebar .panel {
@@ -562,22 +564,22 @@ a i {
 }
 
 #accordion-sidebar .panel-heading {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #ecf0f1;
+    color: #2c3e50;
     padding: 0px;
 }
 
 #accordion-sidebar .panel-heading:hover {
-    background-color: #517394;
+    background-color: #94a5a6;
     transition: .1s ease;
 }
 
 #accordion-sidebar > .panel > div > .panel-body > ul > li.active {
-   background: #1a242f;
+   background: #94a5a6;
 }
 
 #accordion-sidebar > .panel > div > .panel-body > ul > li:hover {
-    background-color: #517394;
+    background-color: #94a5a6;
     transition: .1s ease;
 }
 
@@ -588,7 +590,7 @@ a i {
 #accordion-sidebar .panel-body {
     font-size: 13px;
     border: 0px;
-    background-color: #2c3e50;
+    background-color: #ecf0f1;
     padding-top: 3px;
     padding-left: 20px;
     padding-right: 0px;
@@ -604,13 +606,14 @@ a i {
 }
 
 #accordion-sidebar .panel-body a {
-    color: white;
+    color: #2c3e50;
     text-decoration: none;
     padding: 0px;
 }
 
 .navbar-fixed-top {
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+    background-color: #ecf0f1;
 }
 
 .toolbar {

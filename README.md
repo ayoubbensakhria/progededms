@@ -95,3 +95,8 @@ In this case, you'll need to create the initial database which in development de
 ```bash
 ./manage.py runserver
 ```
+
+## Use preparestatic instead of collect static
+```bash
+./manage.py preparestatic
+```

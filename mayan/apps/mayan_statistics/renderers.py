@@ -15,7 +15,7 @@ class ChartJSLine(ChartRenderer):
     dataset_palette = (
         {
             'backgroundColor': 'rgba(24, 188, 156, 0.1)',
-            'borderColor': '#18bc9c',
+            'borderColor': '#009fe3',
             'pointBorderWidth': 3,
             'pointHitRadius': 6,
             'pointHoverRadius': 7,
