@@ -37,12 +37,12 @@ Features
 
 - Previews for many file formats.
 
-  - PROGED EDMS provides image preview generation for many popular file
+  - DOCUMIUM EDMS provides image preview generation for many popular file
     formats.
 
 - Office document format support.
 
-  - PROGED EDMS can detect the presence of Libre Office and use it to support
+  - DOCUMIUM EDMS can detect the presence of Libre Office and use it to support
     word processing files, spreadsheets and presentations.
 
 - Full text searching.
@@ -76,7 +76,7 @@ Features
 
 - Multilingual user interface.
 
-  - PROGED EDMS being written using the Django_ framework, can be translated
+  - DOCUMIUM EDMS being written using the Django_ framework, can be translated
     to practically any language spoken in the world. For a list of translated
     languages have a look at the Transifex_ project location.
 

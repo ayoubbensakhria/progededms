@@ -7,7 +7,7 @@
 # Mehdi Amani <MehdiAmani@toorintan.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 08:36+0000\n"
@@ -402,7 +402,7 @@ msgid "Getting started"
 msgstr "شروع کردن"
 
 #: templates/appearance/home.html:29
-msgid "Before you can fully use PROGED EDMS you need the following:"
+msgid "Before you can fully use DOCUMIUM EDMS you need the following:"
 msgstr "قبل از اینکه بتوانید به طور کامل از EDMS مایان استفاده کنید، به موارد زیر نیاز دارید:"
 
 #: templates/appearance/list_header.html:12

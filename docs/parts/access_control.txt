@@ -2,7 +2,7 @@
 Access control
 ==============
 
-PROGED EDMS uses a role based permission system
+DOCUMIUM EDMS uses a role based permission system
 (https://en.wikipedia.org/wiki/Role-based_access_control) that provides a
 mechanism to control access to the contained documents and system functions.
 

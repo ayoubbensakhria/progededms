@@ -2,7 +2,7 @@
 Contributing
 ============
 
-PROGED EDMS is under active development, and contributions are welcome.
+DOCUMIUM EDMS is under active development, and contributions are welcome.
 
 If you have a feature request, suggestion or bug report, please open a new
 issue on the `GitLab issue tracker`_. To submit patches, please send a merge

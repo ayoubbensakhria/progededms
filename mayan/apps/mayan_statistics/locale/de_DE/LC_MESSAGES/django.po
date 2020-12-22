@@ -11,7 +11,7 @@
 # Stefan Lodders <sl@suchreflex.de>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2019-05-27 21:31+0000\n"

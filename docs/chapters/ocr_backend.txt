@@ -2,7 +2,7 @@
 OCR backend
 ===========
 
-PROGED EDMS ships an OCR backend that uses the FLOSS engine Tesseract
+DOCUMIUM EDMS ships an OCR backend that uses the FLOSS engine Tesseract
 (https://github.com/tesseract-ocr/tesseract/), but it can
 use other engines. To support other engines create a wrapper that subclasses the
 ``OCRBackendBase`` class defined in mayan/apps/ocr/classes. This subclass should

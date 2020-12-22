@@ -71,7 +71,7 @@ class SourcesApp(MayanAppConfig):
             label=_('Create a document source'),
             description=_(
                 'Document sources are the way in which new documents are '
-                'feed to PROGED EDMS, create at least a web form source to '
+                'feed to DOCUMIUM EDMS, create at least a web form source to '
                 'be able to upload documents from a browser.'
             ),
             condition=lambda: not Source.objects.exists(),

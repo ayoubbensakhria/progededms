@@ -7,7 +7,7 @@
 # Mehdi Amani <MehdiAmani@toorintan.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2018-03-12 14:24+0000\n"

@@ -17,7 +17,7 @@
 # Yves Dubois <ydubois@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-09-27 06:46+0000\n"
@@ -197,18 +197,18 @@ msgstr "Durée de temporisation des tâches d'arrière plan dépendant d'une mis
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by PROGED EDMS. Each string should be a dotted "
+"the list normally installed by DOCUMIUM EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Une liste de chaînes désignant toutes les applications qui doivent être supprimées de la liste normalement installée par PROGED EDMS. Chaque chaîne doit être un chemin d'accès Python en pointillé vers: une classe de configuration d'application (à privilégier) ou un paquet contenant une application."
+msgstr "Une liste de chaînes désignant toutes les applications qui doivent être supprimées de la liste normalement installée par DOCUMIUM EDMS. Chaque chaîne doit être un chemin d'accès Python en pointillé vers: une classe de configuration d'application (à privilégier) ou un paquet contenant une application."
 
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by PROGED EDMS. Each string should be a dotted "
+"those normally installed by DOCUMIUM EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Une liste de chaînes désignant toutes les applications installées au-delà de celles normalement installées par PROGED EDMS. Chaque chaîne doit être un chemin d'accès Python en pointillé vers: une classe de configuration d'application (à privilégier) ou un paquet contenant une application."
+msgstr "Une liste de chaînes désignant toutes les applications installées au-delà de celles normalement installées par DOCUMIUM EDMS. Chaque chaîne doit être un chemin d'accès Python en pointillé vers: une classe de configuration d'application (à privilégier) ou un paquet contenant une application."
 
 #: settings.py:44
 msgid ""

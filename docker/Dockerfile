@@ -1,7 +1,7 @@
 # vim:set ft=dockerfile:
 
 ####
-# base_image - Bare bones image with the base packages needed to run PROGED EDMS
+# base_image - Bare bones image with the base packages needed to run DOCUMIUM EDMS
 ####
 
 FROM debian:10.5-slim as base_image
@@ -20,7 +20,7 @@ RUN set -x \
 && if [ "${APT_PROXY}" ]; \
     then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy \
 ; fi \
-# Install base OS packages to run PROGED EDMS
+# Install base OS packages to run DOCUMIUM EDMS
 && echo "deb http://deb.debian.org/debian buster-backports main contrib non-free" >> /etc/apt/sources.list \
 && echo "deb-src http://deb.debian.org/debian buster-backports main contrib non-free" >> /etc/apt/sources.list \
 && DEBIAN_FRONTEND=noninteractive \
@@ -133,12 +133,12 @@ RUN set -a \
     pip install --no-cache-dir \
     psutil==$PYTHON_PSUTIL_VERSION \
 ; fi \
-# Install the Python packages needed to build PROGED EDMS
+# Install the Python packages needed to build DOCUMIUM EDMS
 && pip install --no-cache-dir -r /src/requirements/build.txt \
-# Build PROGED EDMS
+# Build DOCUMIUM EDMS
 && python3 setup.py sdist \
 && pip wheel --no-index --no-deps --wheel-dir dist dist/mayan-edms-*.tar.gz \
-# Install the built PROGED EDMS package
+# Install the built DOCUMIUM EDMS package
 && pip install --no-cache-dir dist/mayan_edms-*.whl \
 # Install the static content
 && mayan-edms.py installdependencies \

@@ -12,7 +12,7 @@
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-01 22:15+0000\n"
@@ -407,8 +407,8 @@ msgid "Getting started"
 msgstr "Iniciando"
 
 #: templates/appearance/home.html:29
-msgid "Before you can fully use PROGED EDMS you need the following:"
-msgstr "Antes de começar a usar PROGED EDMS você precisa do seguinte:"
+msgid "Before you can fully use DOCUMIUM EDMS you need the following:"
+msgstr "Antes de começar a usar DOCUMIUM EDMS você precisa do seguinte:"
 
 #: templates/appearance/list_header.html:12
 #, python-format

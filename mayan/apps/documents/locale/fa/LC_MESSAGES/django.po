@@ -7,7 +7,7 @@
 # Mehdi Amani <MehdiAmani@toorintan.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -36,8 +36,8 @@ msgstr "نوع سند را ایجاد کنید"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way PROGED EDMS categorizes documents."
-msgstr "هر سند آپلود شده باید یک نوع سند اختصاص داده شود، این شیوه اصلی PROGED EDMS اسناد را دسته بندی می کند."
+"way DOCUMIUM EDMS categorizes documents."
+msgstr "هر سند آپلود شده باید یک نوع سند اختصاص داده شود، این شیوه اصلی DOCUMIUM EDMS اسناد را دسته بندی می کند."
 
 #: apps.py:216
 msgid "Versions comment"

@@ -1,4 +1,4 @@
-Welcome to PROGED EDMS!
+Welcome to DOCUMIUM EDMS!
 ======================
 
 .. image:: /_static/mayan_logo.png
@@ -6,7 +6,7 @@ Welcome to PROGED EDMS!
   :align: center
 
 
-PROGED EDMS is a `Free Open Source`_ `Electronic Document Management System`_,
+DOCUMIUM EDMS is a `Free Open Source`_ `Electronic Document Management System`_,
 coded in the Python language using the Django_ web application framework and
 released under the `Apache 2.0 License`_. It provides an electronic vault or
 repository for electronic documents.

@@ -8,7 +8,7 @@
 # Pavlin Koldamov <pkoldamov@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-11-11 01:45+0000\n"
@@ -250,8 +250,8 @@ msgid "The backend class for this entry."
 msgstr "Бекенд клас за този запис."
 
 #: models.py:209
-msgid "Test email from PROGED EDMS"
-msgstr "Тестов имейл от PROGED EDMS"
+msgid "Test email from DOCUMIUM EDMS"
+msgstr "Тестов имейл от DOCUMIUM EDMS"
 
 #: permissions.py:8
 msgid "Send document link via email"

@@ -9,7 +9,7 @@
 # Harald Ersch, 2019-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-10-11 07:15+0000\n"
@@ -32,10 +32,10 @@ msgstr "Creați o sursă de documente"
 
 #: apps.py:73
 msgid ""
-"Document sources are the way in which new documents are feed to PROGED EDMS, "
+"Document sources are the way in which new documents are feed to DOCUMIUM EDMS, "
 "create at least a web form source to be able to upload documents from a "
 "browser."
-msgstr "Sursele de documente sunt modul în care documente noi alimentează PROGED EDMS, creează cel puțin o sursă de formă web pentru a putea încărca documente dintr-un browser."
+msgstr "Sursele de documente sunt modul în care documente noi alimentează DOCUMIUM EDMS, creează cel puțin o sursă de formă web pentru a putea încărca documente dintr-un browser."
 
 #: apps.py:86
 msgid "Type"
@@ -694,7 +694,7 @@ msgstr "Proprietățile documentului"
 #: views.py:294
 msgid ""
 "This could mean that the staging folder is empty. It could also mean that "
-"the operating system user account being used for PROGED EDMS doesn't have the"
+"the operating system user account being used for DOCUMIUM EDMS doesn't have the"
 " necessary file system permissions for the folder."
 msgstr "Aceasta ar putea însemna că folderul tampon este gol. Poate însemna, de asemenea, că contul de utilizator al sistemului de operare utilizat pentru Mayn EDMS nu are permisiunile necesare în sistemul de fișiere pentru folder."
 

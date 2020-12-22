@@ -2,7 +2,7 @@
 Search
 ======
 
-PROGED EDMS provides a backend system that allow using different programs to
+DOCUMIUM EDMS provides a backend system that allow using different programs to
 power the search function. The default backend
 (``mayan.apps.dynamic_search.backends.django.DjangoSearchBackend``) uses the
 database manager to perform searches.

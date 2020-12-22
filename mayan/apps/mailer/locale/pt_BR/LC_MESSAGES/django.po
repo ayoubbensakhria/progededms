@@ -10,7 +10,7 @@
 # Rogerio Falcone <rogerio@falconeit.com.br>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-11-11 01:45+0000\n"
@@ -252,8 +252,8 @@ msgid "The backend class for this entry."
 msgstr "A classe de backend para esta entrada."
 
 #: models.py:209
-msgid "Test email from PROGED EDMS"
-msgstr "E-mail de teste para o PROGED EDMS"
+msgid "Test email from DOCUMIUM EDMS"
+msgstr "E-mail de teste para o DOCUMIUM EDMS"
 
 #: permissions.py:8
 msgid "Send document link via email"

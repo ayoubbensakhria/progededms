@@ -11,7 +11,7 @@
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-05-13 14:23+0000\n"

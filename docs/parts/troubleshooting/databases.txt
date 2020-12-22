@@ -47,7 +47,7 @@ PostgreSQL error: ``OperationalError: FATAL:  sorry, too many clients already``
 Set ``MAYAN_DATABASE_CONN_MAX_AGE`` to 0
 
 This setting keeps a database connection alive. It allows reuse of database
-connections. When PROGED EDMS is deployed with Gunicorn a microthreads backend,
+connections. When DOCUMIUM EDMS is deployed with Gunicorn a microthreads backend,
 the database connections are not shared and this setting has the reverse effect
 of exhausting the available PostgreSQL connections available. To avoid this,
 Setting ``MAYAN_DATABASE_CONN_MAX_AGE`` to 0 will cause all microthreads to
@@ -63,7 +63,7 @@ MySQL error: ``ValueError: Found wrong number (0) of constraints for actstream_f
 ============================================================================================================================
 
 This is caused by a bug in Django 1.11. The issue has been fixed for Django 2.0
-version which PROGED EDMS will be migrating to for version 4.0.
+version which DOCUMIUM EDMS will be migrating to for version 4.0.
 
 Mitigation:
 Avoid MySQL versions: 8.0.x. Use MySQL 5.7 or earlier.

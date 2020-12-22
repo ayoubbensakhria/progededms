@@ -35,7 +35,7 @@ a feature, it is often found that the code is based on an older release
 which requires further updates to bring up to standard of the latest release.
 
 Git Flow works best for single release and rolling release projects.
-PROGED EDMS uses a combination of those two methods plus a third one where a
+DOCUMIUM EDMS uses a combination of those two methods plus a third one where a
 past release may be kept active because customized forks depend on it.
 
 The current ``versions`` branch is not static, but a moving branch tree

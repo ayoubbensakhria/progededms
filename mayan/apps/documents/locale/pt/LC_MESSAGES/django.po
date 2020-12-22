@@ -6,7 +6,7 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -35,7 +35,7 @@ msgstr ""
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way PROGED EDMS categorizes documents."
+"way DOCUMIUM EDMS categorizes documents."
 msgstr ""
 
 #: apps.py:216

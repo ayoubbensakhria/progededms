@@ -40,8 +40,8 @@ reach end-of-life status.
 
 Django 2.2 is an LTS release and will be supported for several years.
 Since Django 2.2 itself doesn't support Python 2.7, likewise this version of
-PROGED EDMS is Python 3 only. Although Django 1.11 is approaching end-of-life
-status, PROGED EDMS version 3.3 (based on Django 1.11) will continue to receive
+DOCUMIUM EDMS is Python 3 only. Although Django 1.11 is approaching end-of-life
+status, DOCUMIUM EDMS version 3.3 (based on Django 1.11) will continue to receive
 security and bug fixes, but no new features will be developed for it.
 
 Besides Django, almost every dependency was also updated to their most
@@ -114,7 +114,7 @@ Quotas
 ^^^^^^
 
 A new app was added to support quotas. Quotas allow limiting usage of system
-resources. Following PROGED EDMS's philosophy and like most apps, the quotas
+resources. Following DOCUMIUM EDMS's philosophy and like most apps, the quotas
 app works using backend and can be extended easily.
 
 Two quotas backends are included, one to limit the document count and another
@@ -174,7 +174,7 @@ allows compressing files transparently regardless of the final type storage
 Similar to the compression stage, an encryption stage was added. This
 encryption stage uses AES and can transparently encrypt any storage stream (
 document files, preview images, cached files). With this encryption stage
-PROGED EDMS can now provide ecnryption-at-a-rest regardless of the final
+DOCUMIUM EDMS can now provide ecnryption-at-a-rest regardless of the final
 storage medium.
 
 
@@ -185,7 +185,7 @@ Support for user impersonation was added. This new feature make testing
 permission setup very easily. It removeds the need to login using multiple
 browser windows to test a user access configuration.
 
-The user impersonation features also allows using PROGED EDMS inside a portal
+The user impersonation features also allows using DOCUMIUM EDMS inside a portal
 very easy as only one account is used for the integration. Any content
 being shown in the portal, will be limited to the user being impersonated
 not the user account used for the integration.
@@ -264,7 +264,7 @@ Upgrading process
     sudo systemctl stop supervisor
 
 
-Upgrading from PROGED EDMS 3.2.x or earlier
+Upgrading from DOCUMIUM EDMS 3.2.x or earlier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Update the Redis configuration:
@@ -295,14 +295,14 @@ Upgrading from PROGED EDMS 3.2.x or earlier
     sudo -u |DEFAULT_OS_USERNAME| virtualenv --clear /opt/mayan-edms -p /usr/bin/python3
 
 
-#. Create a home directory for the PROGED EDMS system user:
+#. Create a home directory for the DOCUMIUM EDMS system user:
 
    .. code-block:: bash
 
     mkdir /home/mayan
 
 
-#. Grant ownership to the PROGED EDMS system user:
+#. Grant ownership to the DOCUMIUM EDMS system user:
 
    .. code-block:: bash
 
@@ -330,7 +330,7 @@ Upgrading from PROGED EDMS 3.2.x or earlier
        sudo -u |DEFAULT_OS_USERNAME| |MAYAN_PIP_BIN| install amqp==|PYTHON_AMQP_VERSION|
 
 
-Upgrading from PROGED EDMS 3.3.x
+Upgrading from DOCUMIUM EDMS 3.3.x
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Update the Redis configuration to enable password protection:
@@ -349,7 +349,7 @@ Upgrading from PROGED EDMS 3.3.x
     && sudo -u |DEFAULT_OS_USERNAME| |MAYAN_PIP_BIN| uninstall -y -r /tmp/removals.txt
 
 
-#. Update the PROGED EDMS Python package:
+#. Update the DOCUMIUM EDMS Python package:
 
    .. code-block:: bash
 

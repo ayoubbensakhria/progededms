@@ -7,7 +7,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-12-19 18:14+0100\n"
@@ -32,10 +32,10 @@ msgstr "قم بإنشاء مصدر مستند"
 
 #: apps.py:73
 msgid ""
-"Document sources are the way in which new documents are feed to PROGED EDMS, "
+"Document sources are the way in which new documents are feed to DOCUMIUM EDMS, "
 "create at least a web form source to be able to upload documents from a browser."
 msgstr ""
-"مصادر المستندات هي الطريقة التي يتم بها تحميل المستندات الجديدة إلى PROGED EDMS ،"
+"مصادر المستندات هي الطريقة التي يتم بها تحميل المستندات الجديدة إلى DOCUMIUM EDMS ،"
 "إنشاء مصدر نموذج ويب على الأقل لتتمكن من تحميل المستندات منالمتصفح."
 
 #: apps.py:86
@@ -733,11 +733,11 @@ msgstr "خصائص المستند"
 #: views.py:294
 msgid ""
 "This could mean that the staging folder is empty. It could also mean that the "
-"operating system user account being used for PROGED EDMS doesn't have the "
+"operating system user account being used for DOCUMIUM EDMS doesn't have the "
 "necessary file system permissions for the folder."
 msgstr ""
 "قد يعني هذا أن المجلد المرحلي فارغ. قد يعني ذلك أيضًا أن حساب مستخدم نظام التشغيل "
-"المستخدم في PROGED EDMS لا يمتلك أذونات نظام الملفات الضرورية للمجلد."
+"المستخدم في DOCUMIUM EDMS لا يمتلك أذونات نظام الملفات الضرورية للمجلد."
 
 #: views.py:301
 msgid "No staging files available"

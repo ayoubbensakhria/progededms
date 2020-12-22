@@ -13,7 +13,7 @@ from .literals import (
 class SettingNamespaceSingleton:
     """
     Self hosting bootstrap setting class.
-    Allow managing setting in a compatible way before PROGED EDMS starts.
+    Allow managing setting in a compatible way before DOCUMIUM EDMS starts.
     """
     _setting_kwargs = {}
     _settings = {}

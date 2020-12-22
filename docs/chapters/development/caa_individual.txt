@@ -1,8 +1,8 @@
 ======================================================
-PROGED EDMS Individual Contributor Assignment Agreement
+DOCUMIUM EDMS Individual Contributor Assignment Agreement
 ======================================================
 
-Thank you for your interest in contributing to PROGED EDMS ("We" or "Us").
+Thank you for your interest in contributing to DOCUMIUM EDMS ("We" or "Us").
 
 This contributor agreement ("Agreement") documents the rights granted by
 contributors to Us. To make this document effective, please print it, sign it
@@ -240,4 +240,4 @@ the maximum extent possible under law.
 
 
 
-PROGED EDMS Individual CAA Version 1.0 April 8, 2018
+DOCUMIUM EDMS Individual CAA Version 1.0 April 8, 2018

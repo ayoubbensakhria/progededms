@@ -28,7 +28,7 @@ class StagingFolderSource(InteractiveSource):
     computer, open Mayan, select to upload a new document but choose the
     previously defined staging folder source, now they see the list of
     documents with a small preview and can proceed to process one by one and
-    convert the scanned files into PROGED EDMS documents. Staging folders are
+    convert the scanned files into DOCUMIUM EDMS documents. Staging folders are
     useful when many users share a few networked scanners.
     """
     can_compress = True

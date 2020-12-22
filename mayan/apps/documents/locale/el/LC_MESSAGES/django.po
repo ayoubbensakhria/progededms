@@ -7,7 +7,7 @@
 # Hmayag Antonian <hmayag@freemail.gr>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -36,7 +36,7 @@ msgstr "Δημιουργία τύπου εγγράφου"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way PROGED EDMS categorizes documents."
+"way DOCUMIUM EDMS categorizes documents."
 msgstr "Σε κάθε έγγραφο που ανεβάσατε πρέπει να ανατεθεί ένας τύπος εγγράφου. Αυτός είναι ο βασικός τρόπος κατηγοριοποίησης που χρησιμοποιεί το Mayan ΕDMS "
 
 #: apps.py:216

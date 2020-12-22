@@ -2,8 +2,8 @@
 Project philosophies
 ====================
 
-How to think about PROGED EDMS when doing changes or adding new features;
-why things are the way they are in PROGED EDMS:
+How to think about DOCUMIUM EDMS when doing changes or adding new features;
+why things are the way they are in DOCUMIUM EDMS:
 
 - Functionality must be as market/sector independent as possible, code for the
   95% of use cases.

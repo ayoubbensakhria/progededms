@@ -2,7 +2,7 @@
 Static files
 ============
 
-PROGED EDMS installed correctly and works, but static files are not served
+DOCUMIUM EDMS installed correctly and works, but static files are not served
 =========================================================================
 
 Django's development server doesn't serve static files unless the ``DEBUG``

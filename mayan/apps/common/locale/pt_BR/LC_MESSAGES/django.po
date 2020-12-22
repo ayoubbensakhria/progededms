@@ -13,7 +13,7 @@
 # Rogerio Falcone <rogerio@falconeit.com.br>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-01 22:12+0000\n"
@@ -193,18 +193,18 @@ msgstr "Tempo para atrasar as tarefas de fundo que dependem da propagação de i
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by PROGED EDMS. Each string should be a dotted "
+"the list normally installed by DOCUMIUM EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Uma lista de strings designando todas as aplicações que serão removidas daquelas normamente instaladas pelo PROGED EDMS. Cada string deve ser um caminho Python pontuado para uma classe de configuração da aplicação (preferencialmente) ou um pacote contendo uma aplicação."
+msgstr "Uma lista de strings designando todas as aplicações que serão removidas daquelas normamente instaladas pelo DOCUMIUM EDMS. Cada string deve ser um caminho Python pontuado para uma classe de configuração da aplicação (preferencialmente) ou um pacote contendo uma aplicação."
 
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by PROGED EDMS. Each string should be a dotted "
+"those normally installed by DOCUMIUM EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Uma lista de strings designando todas as aplicações que serão instaladas para além daquelas normamente instaladas pelo PROGED EDMS. Cada string deve ser um caminho Python pontuado para uma classe de configuração da aplicação (preferencialmente) ou um pacote contendo uma aplicação."
+msgstr "Uma lista de strings designando todas as aplicações que serão instaladas para além daquelas normamente instaladas pelo DOCUMIUM EDMS. Cada string deve ser um caminho Python pontuado para uma classe de configuração da aplicação (preferencialmente) ou um pacote contendo uma aplicação."
 
 #: settings.py:44
 msgid ""

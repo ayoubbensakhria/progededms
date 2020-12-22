@@ -9,7 +9,7 @@ Changes
 Upgrade to use Django 1.8.13
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-With the end of life support for Django 1.7, moving to the next PROGED EDMS
+With the end of life support for Django 1.7, moving to the next DOCUMIUM EDMS
 minor version was a target for this release. The Django minor release chosen was
 1.8 as it is very compatible with 1.7 and required minimal changes. Django 1.8
 is an LTS release (Long Term Support) meaning that is no new big feature of a
@@ -28,7 +28,7 @@ should present very little if any obstacles.
 Remove included login required middleware
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The custom middleware include with PROGED EDMS that forces user to be
+The custom middleware include with DOCUMIUM EDMS that forces user to be
 authenticated before being able to access any view has been removed in favor of
 a dedicated 3rd party Django app for that purpose. The app chosen was
 django-stronghold (http://mikegrouchy.com/django-stronghold/).
@@ -45,8 +45,8 @@ to manipulate.
 Remove ownership concept from folders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Currently Folders in PROGED EDMS have a field that stores a reference to the
-user that has created that folders. One of the design decisions of PROGED EDMS
+Currently Folders in DOCUMIUM EDMS have a field that stores a reference to the
+user that has created that folders. One of the design decisions of DOCUMIUM EDMS
 is that there should never be any explicit ownership of any object. Ownership
 is relative and is defined by the Access Control List of an object. The
 removal of the user field from the Folders model brings this app in line with
@@ -109,14 +109,14 @@ Default index
 
 During new installations a default index that organizes document by year/month
 when they were uploaded will be created to help users better understand the
-concept of indexes in PROGED EDMS.
+concept of indexes in DOCUMIUM EDMS.
 
 
 HTML5 upload widget
 ^^^^^^^^^^^^^^^^^^^
 
 A common request is the ability to just drap and drop documents from other
-windows into PROGED EDMS's document upload wizard. This release includes that
+windows into DOCUMIUM EDMS's document upload wizard. This release includes that
 capability and will also show a completion bar for the upload. Document
 uploading is sped up dramatically with this change.
 
@@ -138,7 +138,7 @@ Document signing
 The biggest change for this release if the addition of document signing from
 within the UI. Enterprise users request this feature very often as in those
 environments cryptographic signatures are a basic requirement. Previously
-PROGED EDMS had the ability to automatically check if a document was signed and
+DOCUMIUM EDMS had the ability to automatically check if a document was signed and
 if signed, verify the validity of the signature. However, to sign documents
 user had to download the document, sign the document offline, and either
 re-upload the signed document as a new version or upload a detached
@@ -205,7 +205,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed PROGED EDMS by cloning the Git repository issue the commands::
+If you installed DOCUMIUM EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

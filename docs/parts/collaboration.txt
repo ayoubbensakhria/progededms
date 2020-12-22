@@ -2,7 +2,7 @@
 Collaboration
 =============
 
-PROGED EDMS includes several methods to allow users to collectively collaborate
+DOCUMIUM EDMS includes several methods to allow users to collectively collaborate
 when working with documents.
 
 - :doc:`../chapters/checkouts`

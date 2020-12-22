@@ -8,7 +8,7 @@
 # Lyudmil Antonov <lantonov.here@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:44+0000\n"
 "PO-Revision-Date: 2020-10-11 07:15+0000\n"
@@ -31,10 +31,10 @@ msgstr "Създайте източник на документи"
 
 #: apps.py:73
 msgid ""
-"Document sources are the way in which new documents are feed to PROGED EDMS, "
+"Document sources are the way in which new documents are feed to DOCUMIUM EDMS, "
 "create at least a web form source to be able to upload documents from a "
 "browser."
-msgstr "Източниците на документи са начинът, по който новите документи се подават към PROGED EDMS, създайте поне източник на уеб формуляр, за да можете да качвате документи от браузър."
+msgstr "Източниците на документи са начинът, по който новите документи се подават към DOCUMIUM EDMS, създайте поне източник на уеб формуляр, за да можете да качвате документи от браузър."
 
 #: apps.py:86
 msgid "Type"
@@ -693,9 +693,9 @@ msgstr "Свойства на документа"
 #: views.py:294
 msgid ""
 "This could mean that the staging folder is empty. It could also mean that "
-"the operating system user account being used for PROGED EDMS doesn't have the"
+"the operating system user account being used for DOCUMIUM EDMS doesn't have the"
 " necessary file system permissions for the folder."
-msgstr "Това може да означава, че папката за поставяне е празна. Това също може да означава, че потребителският акаунт на операционната система, използвана за PROGED EDMS няма необходимите разрешения във файлова система за папката."
+msgstr "Това може да означава, че папката за поставяне е празна. Това също може да означава, че потребителският акаунт на операционната система, използвана за DOCUMIUM EDMS няма необходимите разрешения във файлова система за папката."
 
 #: views.py:301
 msgid "No staging files available"

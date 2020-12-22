@@ -34,7 +34,7 @@ Docker Compose installation
        docker-compose -v
 
 
-#. Download the PROGED EDMS Docker Compose file:
+#. Download the DOCUMIUM EDMS Docker Compose file:
 
    The file is located at: https://gitlab.com/mayan-edms/mayan-edms/-/raw/master/docker/docker-compose.yml
 
@@ -43,7 +43,7 @@ Docker Compose installation
        curl https://gitlab.com/mayan-edms/mayan-edms/-/raw/master/docker/docker-compose.yml -O
 
 
-#. Update the PROGED EDMS Docker Compose file:
+#. Update the DOCUMIUM EDMS Docker Compose file:
 
    Update the ``docker-compose.yml`` file directly or create a file named
    ``.env`` in the same folder where the file ``docker-compose.yml`` resides.
@@ -79,7 +79,7 @@ Docker Compose installation
    ``.env`` file.
 
 
-#. Launch the PROGED EDMS Docker Compose containers:
+#. Launch the DOCUMIUM EDMS Docker Compose containers:
 
    .. note::
 

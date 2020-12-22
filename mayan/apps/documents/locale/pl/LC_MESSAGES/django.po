@@ -11,7 +11,7 @@
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2016-2018
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-11-02 19:46+0000\n"
@@ -40,8 +40,8 @@ msgstr "Utwórz typ dokumentu"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way PROGED EDMS categorizes documents."
-msgstr "Każdy przesłany dokument musi mieć przypisany typ dokumentu, ponieważ jest to podstawowy sposób kategoryzacji dokumentów w PROGED EDMS."
+"way DOCUMIUM EDMS categorizes documents."
+msgstr "Każdy przesłany dokument musi mieć przypisany typ dokumentu, ponieważ jest to podstawowy sposób kategoryzacji dokumentów w DOCUMIUM EDMS."
 
 #: apps.py:216
 msgid "Versions comment"

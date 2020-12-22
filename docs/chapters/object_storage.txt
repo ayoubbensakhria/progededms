@@ -2,25 +2,25 @@
 Object Storage
 ==============
 
-As introduced in :doc:`../chapters/file_storage`, PROGED EDMS takes
+As introduced in :doc:`../chapters/file_storage`, DOCUMIUM EDMS takes
 ownership of document backing files and stores them using the
 configured storage backend. Another supported backend is the ``s3boto3``
 backend. Provided by the Django Storages project, this backend
-allows PROGED EDMS to use any S3 (Simple Storage Service) compatible
+allows DOCUMIUM EDMS to use any S3 (Simple Storage Service) compatible
 service as storage for documents, caches and tempoary files.
 This backend works not only with AWS, but any other S3-compatible
 API such as Minio (which can provide self-hosted S3 storage).
-Using S3 storage can help PROGED EDMS scale to millions of documents.
+Using S3 storage can help DOCUMIUM EDMS scale to millions of documents.
 
-The following steps will configure PROGED EDMS to use a S3 style storage
-for documents on a PROGED EDMS instance
+The following steps will configure DOCUMIUM EDMS to use a S3 style storage
+for documents on a DOCUMIUM EDMS instance
 
    .. warning::
 
-       If migrating from a different storage backend, ensure PROGED EDMS
+       If migrating from a different storage backend, ensure DOCUMIUM EDMS
        is stopped first and that every file from the existing storage
        directory is copied to the new storage location before starting
-       PROGED EDMS configured with with the new backend.
+       DOCUMIUM EDMS configured with with the new backend.
        Also, ensure you have made a backup before beginning this process.
 
    .. note::
@@ -48,7 +48,7 @@ in the ``environment`` section:
     MAYAN_DOCUMENTS_STORAGE_BACKEND: storages.backends.s3boto3.S3Boto3Storage
     MAYAN_DOCUMENTS_STORAGE_BACKEND_ARGUMENTS: "{'access_key':'yourS3accesskey','secret_key':'yourS3secretkey','bucket_name':'yourS3bucketname','default_acl':'private'}"
 
-If deploying PROGED EDMS without Docker Compose, add the
+If deploying DOCUMIUM EDMS without Docker Compose, add the
 environment variable to the complete docker run command:
 
   .. code-block:: console
@@ -111,7 +111,7 @@ replace the existing ``MAYAN_DATABASES`` line, add the new variables above it.
 
 
 To complete the change, restart Supervisor on all systems
-running PROGED EDMS:
+running DOCUMIUM EDMS:
 
    .. code-block:: bash
 

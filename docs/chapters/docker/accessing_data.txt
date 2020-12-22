@@ -5,7 +5,7 @@
 Accessing outside data
 ======================
 
-To use PROGED EDMS's staging folders or watch folders from Docker, the data
+To use DOCUMIUM EDMS's staging folders or watch folders from Docker, the data
 for these source must be made accessible to the container. This is done by
 mounting the folders in the host computer to folders inside the container by
 via Docker volumes (https://docs.docker.com/storage/volumes/).
@@ -26,7 +26,7 @@ to the container as ``/scanned_files``, use:
 
     -v /opt/scanned_files:/scanned_files
 
-Now create a watch folder source in PROGED EDMS and use the container path
+Now create a watch folder source in DOCUMIUM EDMS and use the container path
 ``/scanned_files``. The documents from the host folder ``/opt/scanned_files``
 will be automatically available.
 

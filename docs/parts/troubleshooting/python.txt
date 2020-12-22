@@ -17,7 +17,7 @@ If you followed the deployment instructions, the command line would be:
 
     virtualenv /opt/mayan-edms -p /usr/bin/python3
 
-If using a dedicated user account for PROGED EDMS:
+If using a dedicated user account for DOCUMIUM EDMS:
 
 .. code-block:: console
 

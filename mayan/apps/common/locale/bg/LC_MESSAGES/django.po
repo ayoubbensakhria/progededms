@@ -8,7 +8,7 @@
 # Pavlin Koldamov <pkoldamov@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-02 19:24+0000\n"
@@ -188,18 +188,18 @@ msgstr "Време за забавяне на фоновите задачи, к�
 #: settings.py:25
 msgid ""
 "A list of strings designating all applications that are to be removed from "
-"the list normally installed by PROGED EDMS. Each string should be a dotted "
+"the list normally installed by DOCUMIUM EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Списък с низове, обозначаващи всички приложения, които трябва да бъдат премахнати от списъка, обикновено инсталиран от PROGED EDMS. Всеки низ трябва да бъде подчертан Python път към: клас на конфигурация на приложението (предпочитан) или пакет, съдържащ приложение."
+msgstr "Списък с низове, обозначаващи всички приложения, които трябва да бъдат премахнати от списъка, обикновено инсталиран от DOCUMIUM EDMS. Всеки низ трябва да бъде подчертан Python път към: клас на конфигурация на приложението (предпочитан) или пакет, съдържащ приложение."
 
 #: settings.py:35
 msgid ""
 "A list of strings designating all applications that are installed beyond "
-"those normally installed by PROGED EDMS. Each string should be a dotted "
+"those normally installed by DOCUMIUM EDMS. Each string should be a dotted "
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application."
-msgstr "Списък на низове, обозначаващи всички приложения, които са инсталирани извън тези, които обикновено се инсталират от PROGED EDMS. Всеки низ трябва да бъде подчертан Python път към: клас на конфигурация на приложението (предпочитан) или пакет, съдържащ приложение."
+msgstr "Списък на низове, обозначаващи всички приложения, които са инсталирани извън тези, които обикновено се инсталират от DOCUMIUM EDMS. Всеки низ трябва да бъде подчертан Python път към: клас на конфигурация на приложението (предпочитан) или пакет, съдържащ приложение."
 
 #: settings.py:44
 msgid ""

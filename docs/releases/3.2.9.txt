@@ -41,7 +41,7 @@ Some dependencies were updated to a new version:
 Docker
 ^^^^^^
 
-The PROGED EDMS launcher script at get.mayan-edms.com was updated to allow
+The DOCUMIUM EDMS launcher script at get.mayan-edms.com was updated to allow
 configuring the wait delay after the PostgreSQL container is launched. The
 environment variable for this is called ``DOCKER_POSTGRES_DELAY`` and
 defaults to 10 seconds to preserve the existing behavior. This closes
@@ -151,7 +151,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed PROGED EDMS by cloning the Git repository issue the commands::
+If you installed DOCUMIUM EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

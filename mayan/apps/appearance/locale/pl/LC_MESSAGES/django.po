@@ -11,7 +11,7 @@
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-12 18:44+0000\n"
@@ -406,8 +406,8 @@ msgid "Getting started"
 msgstr "Rozpoczynamy"
 
 #: templates/appearance/home.html:29
-msgid "Before you can fully use PROGED EDMS you need the following:"
-msgstr "Zanim w pełni zaczniesz używać PROGED EDMS musisz:"
+msgid "Before you can fully use DOCUMIUM EDMS you need the following:"
+msgstr "Zanim w pełni zaczniesz używać DOCUMIUM EDMS musisz:"
 
 #: templates/appearance/list_header.html:12
 #, python-format

@@ -2,7 +2,7 @@
 MECRs
 =====
 
-PROGED EDMS Request For Comment documents index.
+DOCUMIUM EDMS Request For Comment documents index.
 
 .. contents:: Table of Contents
    :depth: 2

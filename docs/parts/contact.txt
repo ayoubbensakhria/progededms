@@ -15,7 +15,7 @@ Forum
 Search for information or post a question, report or feature request at:
 https://forum.mayan-edms.com.
 
-PROGED EDMS developers do their best to reply to basic questions.
+DOCUMIUM EDMS developers do their best to reply to basic questions.
 Be sure to use the search feature of the forum as some posts may already
 contain the answers to your questions.
 
@@ -23,7 +23,7 @@ contain the answers to your questions.
 Bugs/ticket tracker
 ===================
 
-Report bugs with PROGED EDMS or search existing ones using GitLab's `ticket tracker`_.
+Report bugs with DOCUMIUM EDMS or search existing ones using GitLab's `ticket tracker`_.
 
 
 .. _ticket tracker: |SOURCE_CODE_ISSUES|

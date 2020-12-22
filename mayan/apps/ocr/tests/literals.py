@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-TEST_DOCUMENT_CONTENT = 'PROGED EDMS Documentation'
+TEST_DOCUMENT_CONTENT = 'DOCUMIUM EDMS Documentation'
 TEST_DOCUMENT_CONTENT_DEU_1 = 'Repository für elektronische Dokumente.'
 TEST_DOCUMENT_CONTENT_DEU_2 = 'Es bietet einen'
 TEST_DOCUMENT_PAGE_TEST_CONTENT = 'test content'

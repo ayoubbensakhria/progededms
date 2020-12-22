@@ -10,7 +10,7 @@ Celery
 ^^^^^^
 
 All background tasks processing has been converted to use Celery_. By default
-PROGED EDMS runs in "Eager" until a broker and result backend are configured
+DOCUMIUM EDMS runs in "Eager" until a broker and result backend are configured
 as per `Celery's documentation`_. This change made the built-in scheduler and
 job_processing apps obsolete, both were removed.
 
@@ -19,7 +19,7 @@ Views namespaces
 ^^^^^^^^^^^^^^^^
 
 All views are namespaced_ with the name of the app which defines them. If you have
-developed 3rd party apps for PROGED EDMS be sure to update any reference to a view
+developed 3rd party apps for DOCUMIUM EDMS be sure to update any reference to a view
 by prepending the app name to the view name.
 
 
@@ -44,7 +44,7 @@ on how to set up mail serving.
 Update to Django 1.6.8
 ^^^^^^^^^^^^^^^^^^^^^^
 
-PROGED EDMS has been updated to use Django 1.6.8.
+DOCUMIUM EDMS has been updated to use Django 1.6.8.
 
 
 Events app
@@ -58,14 +58,14 @@ Watch folders
 ^^^^^^^^^^^^^
 
 Filesystem folders can be monitored for change and their files automatically
-uploaded as documents in PROGED EDMS.
+uploaded as documents in DOCUMIUM EDMS.
 
 
 Vagrant file included
 ^^^^^^^^^^^^^^^^^^^^^
 
 A vagrant file is now included to allow developers to provision a virtual machine
-with the latest development version of PROGED EDMS.
+with the latest development version of DOCUMIUM EDMS.
 
 
 User locale profile (language and timezone)
@@ -111,7 +111,7 @@ New release cycle
 ^^^^^^^^^^^^^^^^^
 
 Starting with this version a new release cycle methodology will come into effect.
-The goal of this release cycle is to allow two series of versions of PROGED EDMS to be
+The goal of this release cycle is to allow two series of versions of DOCUMIUM EDMS to be
 active at a given time: A new major version with new functionality and a minor version
 providing upgrades and fixes. This release (1.1) will be active and supported
 during releases of versions 2.x, but will go into end-of-life as soon as
@@ -122,20 +122,20 @@ maintenance mode.
 Deprecation of Python 2.6
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Series 1.0 of PROGED EDMS will be the last series supporting Python 2.6. Series
+Series 1.0 of DOCUMIUM EDMS will be the last series supporting Python 2.6. Series
 2.0 will be using Django 1.7.x which itself requires Python 2.7 or later.
 
 
 Improved testings
 ^^^^^^^^^^^^^^^^^
 
-PROGED EDMS is now automatically tested against SQLite, MySQL and PostgreSQL.
+DOCUMIUM EDMS is now automatically tested against SQLite, MySQL and PostgreSQL.
 
 
 API updates
 ^^^^^^^^^^^
 
-Many new API endpoints have been added exposing the majority of PROGED EDMS
+Many new API endpoints have been added exposing the majority of DOCUMIUM EDMS
 functionality.
 
 
@@ -143,7 +143,7 @@ Messages contextual improvements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Many updates and simplifications were made to the source text messages to
-reduce the difficulty of translating PROGED EDMS and maintaing the contextual
+reduce the difficulty of translating DOCUMIUM EDMS and maintaing the contextual
 meaning of the text messages.
 
 
@@ -210,7 +210,7 @@ More technical documentation
 
 Many new sub topics were added to the development section of the documentation
 to allow developers to better understand the inner workings and philosophies
-of PROGED EDMS.
+of DOCUMIUM EDMS.
 
 
 Other changes
@@ -242,7 +242,7 @@ IMPORTANT! Before running the upgrade make sure none of your documents have
 duplicated metadata types, meaning that the same metadata type must not appear
 twice for any given document.
 
-If you installed PROGED EDMS by cloning the Git repository issue the commands::
+If you installed DOCUMIUM EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

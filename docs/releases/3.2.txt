@@ -97,7 +97,7 @@ code more than one dashboard using the Dashboard class.
 
 Autoadmin app: The autoadmin app which is in charge of creating the
 initial admin user after the installation, has been included in the core. This
-app is made by the same author of PROGED EDMS and at one time in the past was
+app is made by the same author of DOCUMIUM EDMS and at one time in the past was
 part of the core apps.
 
 File metadata: Allows extracting file information. The app includes a driver by
@@ -173,7 +173,7 @@ Installation
 ^^^^^^^^^^^^
 
 Installation seems to be the most error-prone stage of the process in getting
-to use PROGED EDMS. Just like configuration, installation, and dependency
+to use DOCUMIUM EDMS. Just like configuration, installation, and dependency
 management are other areas where the underlying framework and language
 don't provide tools and it is up to the project to come up with an alternative
 to bridge the functionality gap.
@@ -423,7 +423,7 @@ setup.
 MERCs
 ^^^^^
 
-Two new PROGED EDMS Requests for Comments were approved during version 4.0
+Two new DOCUMIUM EDMS Requests for Comments were approved during version 4.0
 development and applied to this release too.
 
 MERC 5 now requires all callables to use explicit keyword arguments. This MERC
@@ -504,7 +504,7 @@ Long awaited Python 3 support is here. To ensure a smooth transition only the
 Python package will be release supporting Python 2.7 and 3. For the next
 release, the Docker image will be converted to work on Python 3. And finally,
 on the release of the next major version, version 4.0, Python 3 will be the
-only Python version support. This version of PROGED EDMS, as well as future
+only Python version support. This version of DOCUMIUM EDMS, as well as future
 versions of the same series (3.x) will be the last version supporting
 python 2.7.
 
@@ -756,7 +756,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-If you installed PROGED EDMS by cloning the Git repository issue the commands::
+If you installed DOCUMIUM EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

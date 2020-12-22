@@ -2,7 +2,7 @@
 Upgrading
 =========
 
-Upgrading a PROGED EDMS Docker container is actually a matter of stopping and
+Upgrading a DOCUMIUM EDMS Docker container is actually a matter of stopping and
 deleting the container, downloading the most recent version of the image and
 starting a container again. The container will take care of updating the
 database structure to the newest version if necessary.

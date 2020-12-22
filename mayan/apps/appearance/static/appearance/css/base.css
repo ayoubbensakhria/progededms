@@ -445,6 +445,7 @@ a i {
     transition: left 0.3s;
     width: 210px;
     z-index: 1000;
+    padding-top: 15px;
 
 }
 
@@ -491,6 +492,8 @@ a i {
     #menu-main {
         display: block;
         left: 0;
+        padding-top: 15px;
+
     }
 
     .menu-user-name {

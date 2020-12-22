@@ -10,7 +10,7 @@
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2019-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 21:28+0000\n"
@@ -39,8 +39,8 @@ msgstr "Criar tipo de documento"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way PROGED EDMS categorizes documents."
-msgstr "A cada documento carregado deve ser atribuído um tipo de documento. Esta é forma básica pela qual o PROGED EDMS categoriza os documentos."
+"way DOCUMIUM EDMS categorizes documents."
+msgstr "A cada documento carregado deve ser atribuído um tipo de documento. Esta é forma básica pela qual o DOCUMIUM EDMS categoriza os documentos."
 
 #: apps.py:216
 msgid "Versions comment"

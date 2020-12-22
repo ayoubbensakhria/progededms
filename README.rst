@@ -6,7 +6,7 @@
     :width: 200
     :height: 200
 
-PROGED EDMS is a document management system. Its main purpose is to store,
+DOCUMIUM EDMS is a document management system. Its main purpose is to store,
 introspect, and categorize files, with a strong emphasis on preserving the
 contextual and business information of documents. It can also OCR, preview,
 label, sign, send, and receive thoses files. Other features of interest
@@ -16,16 +16,16 @@ are its workflow system, role based access control, and REST API.
     :align: center
     :width: 300
 
-The easiest way to use PROGED EDMS is by using the official Docker_ image.
+The easiest way to use DOCUMIUM EDMS is by using the official Docker_ image.
 Make sure Docker is properly installed and working before attempting to install
-PROGED EDMS.
+DOCUMIUM EDMS.
 
-For the complete set of installation instructions visit the PROGED EDMS documentation
+For the complete set of installation instructions visit the DOCUMIUM EDMS documentation
 at: https://docs.mayan-edms.com/parts/installation.html
 
 .. _Docker: https://www.docker.com/
 
-The final version of the book "Exploring PROGED EDMS" available now!
+The final version of the book "Exploring DOCUMIUM EDMS" available now!
 
 .. image:: https://camo.githubusercontent.com/89d2fe787507c9247aa7bb406e2682b53eb7a5f9/68747470733a2f2f64313273776274773731397934732e636c6f756466726f6e742e6e65742f696d616765732f76365270785734302f615030714b4c6a6b50694175585a6859754234352f774441554c417a4679782e6a7065673f773d353438
     :align: center

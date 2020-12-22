@@ -1,7 +1,7 @@
 Version 0.11
 ------------
 * Support for signed documents verification added, embedded and detached
-  signatures are supported.  When verifying a document PROGED EDMS will
+  signatures are supported.  When verifying a document DOCUMIUM EDMS will
   try to fetch the public key from the list of keyservers provided in the
   configuration option SIGNATURES_KEYSERVERS (which defaults to
   'pool.sks-keyservers.net').  A public key management view has been added

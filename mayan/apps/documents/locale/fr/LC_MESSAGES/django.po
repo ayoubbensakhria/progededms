@@ -12,7 +12,7 @@
 # Yves Dubois <ydubois@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-10-26 13:26+0000\n"
@@ -41,8 +41,8 @@ msgstr "Créer un type de document"
 #: apps.py:163
 msgid ""
 "Every uploaded document must be assigned a document type, it is the basic "
-"way PROGED EDMS categorizes documents."
-msgstr "Chaque document transféré doit être associé à un type de document, cela permet à PROGED EDMS de catégoriser les documents."
+"way DOCUMIUM EDMS categorizes documents."
+msgstr "Chaque document transféré doit être associé à un type de document, cela permet à DOCUMIUM EDMS de catégoriser les documents."
 
 #: apps.py:216
 msgid "Versions comment"

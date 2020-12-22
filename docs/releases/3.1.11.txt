@@ -107,7 +107,7 @@ The upgrade procedure is now complete.
 Using Git
 ^^^^^^^^^
 
-If you installed PROGED EDMS by cloning the Git repository issue the commands::
+If you installed DOCUMIUM EDMS by cloning the Git repository issue the commands::
 
     $ git reset --hard HEAD
     $ git pull

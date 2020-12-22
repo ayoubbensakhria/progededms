@@ -16,7 +16,7 @@ MERC 2: Test writing
 Abstract
 ========
 
-This MERC proposes a standard methodology for writing tests for PROGED EDMS.
+This MERC proposes a standard methodology for writing tests for DOCUMIUM EDMS.
 
 Motivation
 ==========

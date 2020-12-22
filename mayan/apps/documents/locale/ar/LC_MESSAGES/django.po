@@ -7,7 +7,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version: PROGED EDMS\n"
+"Project-Id-Version: DOCUMIUM EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 01:43+0000\n"
 "PO-Revision-Date: 2020-12-19 18:24+0100\n"
@@ -34,7 +34,7 @@ msgid "Create a document type"
 msgstr "انشاء نوع وثيقة"
 
 #: apps.py:163
-msgid "Every uploaded document must be assigned a document type, it is the basic way PROGED EDMS categorizes documents."
+msgid "Every uploaded document must be assigned a document type, it is the basic way DOCUMIUM EDMS categorizes documents."
 msgstr "كل وثيقة ترفع يجب ان يحدد لها نوع \"نوع الوثيقة\", انها الطريقة الاساسية التي يقوم مايان اي دي ام اس بها بترتيب الوثائق. "
 
 #: apps.py:216

@@ -2,9 +2,9 @@
 File Storage
 ============
 
-When a document is imported into PROGED EDMS the files are placed under PROGED EDMS
+When a document is imported into DOCUMIUM EDMS the files are placed under DOCUMIUM EDMS
 "control" and stored in a dedicated location. This prevents filename clashes and
-allows PROGED EDMS to store multible Versions of the same Document without the
+allows DOCUMIUM EDMS to store multible Versions of the same Document without the
 user having to manually resolve filename conflicts.
 
 As part of the upload process, each file gets renamed to its ``UUID`` (Universally
@@ -29,24 +29,24 @@ of stored documents.
 
        Avoid renaming, moving or updating documents directly on the 
        filesystem. Manual changes can cause the database to become
-       out of sync with the actual state of the files. PROGED EDMS provides
+       out of sync with the actual state of the files. DOCUMIUM EDMS provides
        tools for non-destructive editing of documents through :doc:`../chapters/transformations`
        and automatic management of document updates through :doc:`../chapters/versioning`
 
 
-PROGED EDMS components are decoupled from each other as much as possible, as such
-storage within PROGED EDMS is also decoupled, and storage behavior is controlled
+DOCUMIUM EDMS components are decoupled from each other as much as possible, as such
+storage within DOCUMIUM EDMS is also decoupled, and storage behavior is controlled
 not by the project, but by the ``Storage`` module class. All other
 modules make no assumptions about how the actual document files are
 stored. This way, files can be saved locally, over the network or even across
-the Internet and everything will be transparant to PROGED EDMS itself as well
+the Internet and everything will be transparant to DOCUMIUM EDMS itself as well
 as users working on the system.
 
 The default file storage backend - ``storage.backends.filebasedstorage.FileBasedStorage`` - 
 is a simple storage backend that only supports paths on the local filesystem, rather than 
 remote or shared storage (such as SMB/NFS).
 If you are interested in using remote storage to store documents (NFS, SMB), first
-mount these volumes so that they appear as standard filesystem directories to PROGED EDMS.
+mount these volumes so that they appear as standard filesystem directories to DOCUMIUM EDMS.
 
 For direct support of remote volumes, a different storage backend would be needed,
 such as those provided by the Django Storages project

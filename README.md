@@ -1,4 +1,4 @@
-# EDMS based on PROGED EDMS
+# EDMS based on DOCUMIUM EDMS
 
 Versionnement de documents.
 

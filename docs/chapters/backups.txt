@@ -2,7 +2,7 @@
 Backups
 =======
 
-To backup your install of PROGED EDMS just copy the ``media`` folder and
+To backup your install of DOCUMIUM EDMS just copy the ``media`` folder and
 the database content.
 
 If you are using the default storage backend, the ``media`` should be located

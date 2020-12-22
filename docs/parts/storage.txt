@@ -2,7 +2,7 @@
 Storage
 =======
 
-PROGED EDMS stores documents in their original file format only changing the
+DOCUMIUM EDMS stores documents in their original file format only changing the
 filename to avoid collision. By default, documents files are stored in the
 same filesystem as the program code but by using different drivers, these
 can also be placed in other storage systems like object storage.

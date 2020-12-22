@@ -48,7 +48,7 @@ I want to join the development team
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Perfect! We need all the help we can get. Tell us where we can see what you've
-done using PROGED EDMS. It could be a fork, a new UI, an API client, a custom app,
+done using DOCUMIUM EDMS. It could be a fork, a new UI, an API client, a custom app,
 or anything else that you think will be able to evidence your dominion over the
 codebase or concepts.
 
@@ -96,29 +96,29 @@ customize it in some way based on your own preferences or needs.
 Distribution
 ------------
 
-Can I distribute PROGED EDMS under another name and/or logo?
+Can I distribute DOCUMIUM EDMS under another name and/or logo?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Yes, the terms of the license allow this. However, the copyright notice must
 remain intact. If you use an alternate name, a notice indicating that yours is
-a derived product from PROGED EDMS must be included. You must indicate to your
-clients that their act of purchasing PROGED EDMS from you is an independent
-action and in no way legally binds PROGED EDMS LLC, the PROGED EDMS copyright
+a derived product from DOCUMIUM EDMS must be included. You must indicate to your
+clients that their act of purchasing DOCUMIUM EDMS from you is an independent
+action and in no way legally binds DOCUMIUM EDMS LLC, the DOCUMIUM EDMS copyright
 holders, or the core team in any way.
 
 
 Sale
 ----
 
-Can I sell PROGED EDMS as is or under another name?
+Can I sell DOCUMIUM EDMS as is or under another name?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Yes, selling PROGED EDMS is permitted. However, the copyright notice must
+Yes, selling DOCUMIUM EDMS is permitted. However, the copyright notice must
 remain intact. If you use an alternate name, a notice indicating that yours is
-a derived product from PROGED EDMS must be included. You must indicate to your
-clients that their act of purchasing PROGED EDMS from you is an independent
-action and in no way legally binds PROGED EDMS LLC, the PROGED EDMS copyright
-holder, or the core team in any way. Note that when you sell PROGED EDMS,
+a derived product from DOCUMIUM EDMS must be included. You must indicate to your
+clients that their act of purchasing DOCUMIUM EDMS from you is an independent
+action and in no way legally binds DOCUMIUM EDMS LLC, the DOCUMIUM EDMS copyright
+holder, or the core team in any way. Note that when you sell DOCUMIUM EDMS,
 you are selling your service and not a license, rights, or privileges of any
 type.
 
@@ -128,7 +128,7 @@ Can I get exclusive distribution rights for my region?
 
 No, the terms of the license make the project freely available to everyone.
 Restricting distribution or sale would conflict with the license terms. This
-would possible for a commercial version of PROGED EDMS with separate licensing
+would possible for a commercial version of DOCUMIUM EDMS with separate licensing
 terms.
 
 
@@ -153,12 +153,12 @@ documents created in a computer that may or may not have been printed.
 While they may look similar, EDMS/DMS is not to be confused with CMS
 (Content Management System), IM (Information Management), KM
 (Knowledge Management), RM (Record management), ECM (Enterprise Content
-Management). PROGED EDMS started initially as a strict EDMS project but has
+Management). DOCUMIUM EDMS started initially as a strict EDMS project but has
 been expanding its feature set and provide some functionality from other
 system types.
 
 
-Can I use PROGED EDMS for things other than documents?
+Can I use DOCUMIUM EDMS for things other than documents?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Yes. With the exception of the image previewer, every aspect of Mayan is
@@ -177,7 +177,7 @@ PostgreSQL vs. MySQL
 ^^^^^^^^^^^^^^^^^^^^
 
 Since Django abstracts database operations from a functional point of view
-PROGED EDMS will behave exactly the same either way. The only concern would be
+DOCUMIUM EDMS will behave exactly the same either way. The only concern would be
 that MySQL doesn't support transactions for schema modifying commands. The only
 moment this could cause problems is when running South migrations during
 upgrades, if a migration fails the database structure is left in a transitory
@@ -201,10 +201,10 @@ use this file.
 Operating systems
 -----------------
 
-How to install PROGED EDMS in Windows operating systems?
+How to install DOCUMIUM EDMS in Windows operating systems?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-PROGED EDMS doesn't run natively on Windows. The best way is to use a virtual
+DOCUMIUM EDMS doesn't run natively on Windows. The best way is to use a virtual
 machine product, install Ubuntu or Debian, and proceed with the standard
 deployment instructions or use Docker inside a GNU/Linux virtual machine.
 
@@ -224,7 +224,7 @@ dependencies coming into conflict causing Mayan to stop working for no
 apparent reason.
 
 
-Does PROGED EDMS work with Python 3?
+Does DOCUMIUM EDMS work with Python 3?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Yes, version 3.3 ships with Python 3.7 support. Support for Python 2 will

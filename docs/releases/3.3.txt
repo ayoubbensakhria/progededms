@@ -23,7 +23,7 @@ changed with the ``DOCUMENTS_CACHE_MAXIMUM_SIZE`` and
 
 The web links app allows creating links from documents to external resources.
 These links are defined using the template language for variable substitution.
-Web links provide a simple and fast to integrate PROGED EDMS with external
+Web links provide a simple and fast to integrate DOCUMIUM EDMS with external
 systems.
 
 The document redactions app allows censoring private document information
@@ -143,7 +143,7 @@ Lock manager
 ^^^^^^^^^^^^
 
 A distributed Redis lock backend was added to the lock manager app. This lock
-helps keep multiple PROGED EDMS instances synchronized, even if they are running
+helps keep multiple DOCUMIUM EDMS instances synchronized, even if they are running
 on different hosts. This new lock requires one argument: ``redis_url``.
 
 The ``redis_url`` argument must be added to the new ``LOCK_MANAGER_BACKEND_ARGUMENTS``
@@ -387,7 +387,7 @@ If installed via Python's PIP
     sudo -u mayan curl |SOURCE_CODE_REPOSITORY|raw/master/removals.txt -o /tmp/removals.txt \
     && sudo -u mayan |MAYAN_PIP_BIN| uninstall -y -r /tmp/removals.txt
 
-#. Update the PROGED EDMS Python package::
+#. Update the DOCUMIUM EDMS Python package::
 
     sudo -u mayan |MAYAN_PIP_BIN| install mayan-edms==3.3
 
@@ -397,7 +397,7 @@ the requirements will also be updated automatically.
 Using Git
 ^^^^^^^^^
 
-#. If you installed PROGED EDMS by cloning the Git repository issue the commands::
+#. If you installed DOCUMIUM EDMS by cloning the Git repository issue the commands::
 
     git reset --hard HEAD
     git pull

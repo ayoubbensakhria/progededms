@@ -15,7 +15,7 @@ Version 0.8.3
 * Disable whitelist and blacklist temporarily, removed document_type
   field from interactive sources
 * Fully disabled watch folders until they are working correctly
-* Updated the project title to 'PROGED EDMS'
+* Updated the project title to 'DOCUMIUM EDMS'
 * If ghostscript is installed add PDF and PS to the list of file formats
   by the python converter backend
 * Use Pillow (http://pypi.python.org/pypi/Pillow) instead of PIL
