@@ -138,8 +138,23 @@ a i {
     .list-group-item {
         float: left;
     }
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: black;
 }
 
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    color: black;
+}
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    color: black;
+}
 /* Collapse navigation on medium or smaller */
 @media (max-width: 991px) {
   .navbar-header {
@@ -518,6 +533,11 @@ a i {
         width: 210px;
     }
 }
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
 
 .navbar-default .navbar-nav>li>a {
     color: black;
